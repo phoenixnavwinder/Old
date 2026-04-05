@@ -1,0 +1,14 @@
+// Coil.parmz -- 10/03/2012 -- default version
+// All lines in this file that, like this one, begin with two slashes are 
+// comment lines ignored by the code. Blank lines are ignored. The 5 numbered
+// lines must be present, in order and in "colon" format.
+
+// Coil Winder Operator Settable Parameters ------------------------------------
+ 
+01: Hub diameter          : 2.19 inches
+02: Flange-flange width   : 0.71 inches
+03: Layers                : 36
+04: Base layer turns      : 133
+05: Fiber diameter        : 135.4    microns
+
+// end of Coil.parmz

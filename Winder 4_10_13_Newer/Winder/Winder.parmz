@@ -1,0 +1,26 @@
+// Winder.parmz -- 12/10/2012 
+// All lines in this file that, like this one, begin with two slashes are 
+// comment lines ignored by the code. Blank lines are ignored. The 16 numbered
+// lines must be present, in order and in "colon" format.
+
+// Com port numbers (0 means no com port)
+01: Hub 444               :  3  i.e., 3 means "COM3"
+02: X Pololu Jrk          :  5  
+03: Y Pololu Jrk          :  6
+
+// Configuration Items (for ? items: 1 => yes, 0 => no)
+04: Machine Parmz file?   :  1
+05: Coil Parmz file?      :  1
+06: Button Box present?   :  1
+07: Foot pedal present?   :  1
+08: Lazy Susan present?   :  1
+09: Motor Box present?    :  1 
+10: Hub 444 present?      :  1
+11: Number of SMDs        :  4    usually 4
+12: X can SMD number      :  1    usually 1
+13: X stage SMC number    :  3    usually 3
+14: Y can SMD number      :  2    usually 2
+15: Y stage SMC number    :  4    usually 4
+16: Sampling time step    :  0.02  seconds
+
+// end of Winder.parmz

@@ -1,0 +1,400 @@
+Logz file: ..\..\Winder.logz
+
+5/30/2013 4:11:37 PM
+
+Attempting to open Parmz file: ..\..\Winder.parmz
+Parmz file opened for 16 parameters
+ -- parm 01 = 3
+ -- parm 02 = 5
+ -- parm 03 = 6
+ -- parm 04 = 1
+ -- parm 05 = 1
+ -- parm 06 = 1
+ -- parm 07 = 1
+ -- parm 08 = 1
+ -- parm 09 = 1
+ -- parm 10 = 1
+ -- parm 11 = 4
+ -- parm 12 = 1
+ -- parm 13 = 3
+ -- parm 14 = 2
+ -- parm 15 = 4
+ -- parm 16 = 0.02
+Parmz file closed: ..\..\Winder.parmz
+
+Attempting to open Parmz file: ..\..\Machine.parmz
+Parmz file opened for 22 parameters
+ -- parm 01 = 0.7
+ -- parm 02 = 1.28
+ -- parm 03 = 2.8
+ -- parm 04 = 1
+ -- parm 05 = 1
+ -- parm 06 = 20000
+ -- parm 07 = 4
+ -- parm 08 = 1
+ -- parm 09 = 0.5
+ -- parm 10 = 1
+ -- parm 11 = 0.1
+ -- parm 12 = 2.5
+ -- parm 13 = 1
+ -- parm 14 = 25
+ -- parm 15 = 0.1
+ -- parm 16 = 1
+ -- parm 17 = 0.1
+ -- parm 18 = 10
+ -- parm 19 = 5
+ -- parm 20 = 2
+ -- parm 21 = 2
+ -- parm 22 = 10
+Parmz file closed: ..\..\Machine.parmz
+
+Attempting to open Parmz file: ..\..\Coil.parmz
+Parmz file opened for 5 parameters
+ -- parm 01 = 2.546
+ -- parm 02 = 0.258
+ -- parm 03 = 24
+ -- parm 04 = 41
+ -- parm 05 = 155
+Parmz file closed: ..\..\Coil.parmz
+
+Button Box Initialization
+ -- LEDs (PacDrive) initialized
+
+Found GameController with instance GUID: 1d648880-19e1-11e2-8005-444553540000
+                       and product GUID: 1501d209-0000-0000-0000-504944564944
+
+Joystick Capabilities Summary
+ -- axes count       : 8
+ -- button count     : 32
+ -- driver version   : 0
+ -- firmware revision: 0
+ -- hardware revision: 0
+ -- is HID?          : True
+ -- POV count        : 0
+ -- device type      : 66328
+ -- subtype          : 259
+ -- device flags     : Attached, Emulated
+ -- Button Box initialized
+
+Motor Control Box Initialization
+
+Serial port open
+ -- name     : COM3
+ -- baud rate: 9600
+ -- parity   : None
+ -- data bits: 8
+ -- stop bits: One
+ -- handshake: None
+
+ -- Motor Box SMDs initialized
+
+Starting Mbox.TurnOn
+ - no turn on int sequence
+ -- motor number 1
+ -- missing response to command 1PR4
+1 command: PR4           
+1 command: PR            1 response: PR=4     , type 1
+1 command: EG20000    % 
+1 command: EG            1 response: EG=20000 , type 1
+1 command: SP0        % 
+1 command: IP            1 response: IP=00000000, type 1
+ -- motor number 2
+ -- missing response to command 2PR4
+2 command: PR4           
+2 command: PR            2 response: PR=4     , type 1
+2 command: EG20000    % 
+2 command: EG            2 response: EG=20000 , type 1
+2 command: SP0        % 
+2 command: IP            2 response: IP=0     , type 1
+ -- motor number 3
+ -- missing response to command 3PR4
+3 command: PR4           
+3 command: PR            3 response: PR=4     , type 1
+3 command: EG20000    % 
+3 command: EG            3 response: EG=20000 , type 1
+3 command: SP0        % 
+3 command: IP            3 response: IP=0     , type 1
+ -- motor number 4
+4 command: PR4        % 
+4 command: PR            4 response: PR=4     , type 1
+4 command: EG20000    % 
+4 command: EG            4 response: EG=20000 , type 1
+4 command: SP0        % 
+4 command: IP            4 response: IP=0     , type 1
+1 command: CC            1 response: CC=5     , type 1
+1 command: CI            1 response: CI=2.5   , type 1
+ -- CC and CI values are 5, 2.5
+1 command: CD1        % 
+1 command: CC2.8      % 
+1 command: CI1        % 
+2 command: CD1        % 
+2 command: CC2.8      % 
+2 command: CI1        % 
+3 command: CD1        % 
+3 command: CC2.8      % 
+3 command: CI1        % 
+4 command: CD1        % 
+4 command: CC2.8      % 
+4 command: CI1        % 
+
+Serial port open
+ -- name     : COM5
+ -- baud rate: 9600
+ -- parity   : None
+ -- data bits: 8
+ -- stop bits: One
+ -- handshake: None
+
+ -- X Pololu Jrk motor controller initialized
+
+Serial port open
+ -- name     : COM6
+ -- baud rate: 9600
+ -- parity   : None
+ -- data bits: 8
+ -- stop bits: One
+ -- handshake: None
+
+ -- Y Pololu Jrk motor controller initialized
+1 command: IS            1 response: IS=00000110, type 1
+
+Setup ---
+Joystick speed set to fast
+ -- bump counts = 1220
+ -- steps per can turn = 80000
+ -- can jog acceleration (SM (rev/sec)/sec) = 10
+ -- computed base layer turns = 42
+1 command: VE1        % 
+2 command: VE1        % 
+1 command: AC25       % 
+2 command: AC25       % 
+3 command: VE2        % 
+4 command: VE2        % 
+3 command: AC10       % 
+4 command: AC10       % 
+ -- can   Fl velocity = 1
+ -- can   Fl accel    = 25
+ -- stage Fl velocity = 2
+ -- stage Fl accel    = 10
+ -- time step (seconds) : 0.02   (tics) : 200000
+Transition to position mode
+1 command: IS            1 response: IS=00000110, type 1
+Position mode begins.......................................
+Left side active; X is left; X Jrk in park; Y Jrk in park
+ -- can angle =      0.00, stage position =   0.0000
+ -- button 10 pressed: inactive break on/off toggle
+Inactive brake set on
+ -- button 10 pressed: inactive break on/off toggle
+Inactive brake set off
+ -- button  9 pressed: active break on/off toggle
+Active brake set on
+ -- button  9 pressed: active break on/off toggle
+Active brake set off
+ -- button 10 pressed: inactive break on/off toggle
+Inactive brake set on
+ -- button 10 pressed: inactive break on/off toggle
+Inactive brake set off
+ -- button  9 pressed: active break on/off toggle
+Active brake set on
+ -- button 17 pressed: pause
+Position mode stops; pausing
+Transition to position mode
+Position mode begins.......................................
+Left side active; X is left; X Jrk in park; Y Jrk in park
+ -- can angle =      0.00, stage position =   0.0087
+ -- button  9 pressed: active break on/off toggle
+Active brake set off
+ -- button  9 pressed: active break on/off toggle
+Active brake set on
+ -- can angle =      0.00, stage position =   0.2137
+ -- can angle =      0.00, stage position =   0.4408
+ -- can angle =      0.00, stage position =   0.6806
+ -- can angle =      0.00, stage position =   0.9006
+ -- can angle =      0.00, stage position =   1.1125
+ -- can angle =      0.00, stage position =   1.3169
+ -- can angle =      0.00, stage position =   1.5234
+ -- can angle =      0.00, stage position =   1.7391
+ -- can angle =      0.00, stage position =   1.9484
+ -- button 12 pressed: left start
+ -- record leftStartX to be   1.9956 inches
+ -- can angle =      0.00, stage position =   1.7461
+ -- button 11 pressed: right start
+ -- record rightStartX to be   1.6811 inches
+ -- can angle =     -0.14, stage position =   1.5431
+ -- can angle =     -0.14, stage position =   1.3324
+ -- can angle =     -0.14, stage position =   1.0776
+ -- can angle =     -0.14, stage position =   0.8447
+ -- can angle =     -0.14, stage position =   0.6173
+ -- can angle =     -0.14, stage position =   0.3834
+ -- button 13 pressed: park
+ -- record parkX to be   0.2649 inches
+ -- button 14 pressed: home theta
+ -- home theta; current can position reset to zero
+ -- button 17 pressed: pause
+Position mode stops; pausing
+Transition to position mode
+Position mode begins.......................................
+Left side active; Y is left; X Jrk in park; Y Jrk in park
+ -- can angle =      0.00, stage position =   0.0000
+ -- button 10 pressed: inactive break on/off toggle
+Both brakes may not be on -- action denied
+Inactive brake set off
+ -- button  9 pressed: active break on/off toggle
+Active brake set off
+ -- button  9 pressed: active break on/off toggle
+Active brake set on
+ -- can angle =      1.70, stage position =   0.2336
+ -- can angle =      1.70, stage position =   0.4738
+ -- can angle =      1.70, stage position =   0.6799
+ -- can angle =      1.70, stage position =   0.8871
+ -- can angle =      1.70, stage position =   1.1014
+ -- can angle =      1.70, stage position =   1.3360
+ -- can angle =      1.70, stage position =   1.5565
+ -- can angle =      1.70, stage position =   1.7829
+ -- button 12 pressed: left start
+ -- record leftStartY to be   1.8075 inches
+ -- can angle =      1.70, stage position =   1.5651
+ -- button 11 pressed: right start
+ -- record rightStartY to be   1.4367 inches
+ -- can angle =      1.70, stage position =   1.3402
+ -- can angle =      1.70, stage position =   1.1338
+ -- can angle =      1.70, stage position =   0.9214
+ -- can angle =      1.70, stage position =   0.7085
+ -- can angle =      1.70, stage position =   0.4790
+ -- can angle =      1.70, stage position =   0.2494
+ -- button 13 pressed: park
+ -- record parkY to be   0.1016 inches
+ -- can angle =     23.45, stage position =   0.1016
+ -- can angle =      1.66, stage position =   0.1016
+ -- button 14 pressed: home theta
+ -- home theta; current can position reset to zero
+ -- button 17 pressed: pause
+Position mode stops; pausing
+Transition to wind mode
+Wind mode begins...........................................
+ -- can position after reset  is 0
+Winding a layer begins...............................
+ -- Attempting to set cans to correct start possition
+Inactive brake set off
+Active brake set on
+ -- goto leftStartX at   1.9956 inches
+Y side Jrk set to to park
+ -- getting layer start position
+ -- jogging begins on layer 1
+ -- can turn =    1,  can steps =      81813
+ -- can turn =    2,  can steps =     161219
+ -- can turn =    3,  can steps =     240577
+ -- can turn =    4,  can steps =     322511
+ -- can turn =    5,  can steps =     401804
+ -- can turn =    6,  can steps =     481194
+ -- can turn =    7,  can steps =     560568
+ -- can turn =    8,  can steps =     642534
+ -- can turn =    9,  can steps =     721907
+ -- can turn =   10,  can steps =     800192
+ -- button 17 pressed: pause
+Wind mode stops; pausing
+ -- can position after reset  is 0
+ -- Actual turns for layer 1 = 10
+ -- Operator entered turns for layer 1 = 10
+ -- goto parkX at   0.2649 inches
+Transition to wind mode
+Wind mode begins...........................................
+TDC aborted as position is zero
+Winding a layer begins...............................
+ -- Attempting to set cans to correct start possition
+Inactive brake set off
+Active brake set on
+ -- goto rightStartY at   1.4367 inches
+X side Jrk set to to servo
+Y side Jrk set to to park
+ -- getting layer start position
+ -- jogging begins on layer 2
+ -- can turn =    1,  can steps =      82457
+ -- can turn =    2,  can steps =     161831
+ -- can turn =    3,  can steps =     241204
+ -- can turn =    4,  can steps =     320578
+ -- can turn =    5,  can steps =     402448
+ -- can turn =    6,  can steps =     481822
+ -- can turn =    7,  can steps =     561211
+ -- can turn =    8,  can steps =     640585
+ -- can turn =    9,  can steps =     722535
+ -- can turn =   10,  can steps =     801292
+ -- button 17 pressed: pause
+Wind mode stops; pausing
+ -- can position after reset  is 0
+ -- goto leftStartY at   1.8075 inches
+Transition to wind mode
+Wind mode begins...........................................
+TDC aborted as position is zero
+Winding a layer begins...............................
+ -- Attempting to set cans to correct start possition
+Inactive brake set off
+Active brake set on
+ -- goto leftStartY at   1.8075 inches
+X side Jrk set to to servo
+Y side Jrk set to to park
+ -- getting layer start position
+ -- jogging begins on layer 3
+ -- can turn =    1,  can steps =      83051
+ -- can turn =    2,  can steps =     160592
+ -- can turn =    3,  can steps =     241115
+ -- can turn =    4,  can steps =     320347
+ -- can turn =    5,  can steps =     400846
+ -- can turn =    6,  can steps =     481385
+ -- can turn =    7,  can steps =     560316
+ -- can turn =    8,  can steps =     643526
+ -- can turn =    9,  can steps =     722458
+ -- can turn =   10,  can steps =     802484
+ -- can turn =   11,  can steps =     880500
+ -- button 17 pressed: pause
+Wind mode stops; pausing
+ -- can position after reset  is 0
+ -- goto parkY at   0.1016 inches
+Transition to wind mode
+Wind mode begins...........................................
+TDC aborted as position is zero
+Winding a layer begins...............................
+ -- Attempting to set cans to correct start possition
+Inactive brake set off
+Active brake set on
+ -- goto rightStartX at   1.6811 inches
+X side Jrk set to to park
+Y side Jrk set to to servo
+ -- getting layer start position
+ -- jogging begins on layer 4
+ -- button 17 pressed: pause
+Wind mode stops; pausing
+Transition to position mode
+Position mode begins.......................................
+Left side active; X is left; X Jrk in park; Y Jrk in servo
+ -- can angle =      0.00, stage position =   1.6811
+ -- can angle =      0.00, stage position =   1.4782
+ -- can angle =      0.00, stage position =   1.2692
+ -- can angle =      0.00, stage position =   1.0487
+ -- can angle =      0.00, stage position =   0.8448
+ -- can angle =      0.00, stage position =   0.6251
+ -- can angle =      0.00, stage position =   0.4208
+ -- can angle =      0.00, stage position =   0.2019
+ -- can angle =      0.00, stage position =  -0.0112
+ -- can angle =     -7.27, stage position =   0.2217
+ -- can angle =     -7.27, stage position =   0.4316
+ -- can angle =     -7.27, stage position =   0.2069
+ -- can angle =     -7.27, stage position =  -0.0033
+ -- can angle =     -7.27, stage position =  -0.2237
+ -- can angle =     -7.27, stage position =  -0.0172
+ -- can angle =    -15.49, stage position =  -0.2225
+ -- can angle =    -15.49, stage position =  -0.4225
+ -- can angle =    -17.62, stage position =  -0.2175
+ -- can angle =    -17.62, stage position =  -0.0016
+ -- button  4 pressed: VR on
+Virtual rotation set on
+ -- can angle =      0.00, stage position =   0.2026
+ -- can angle =      0.00, stage position =  -0.0375
+ -- can angle =      0.00, stage position =  -0.2434
+ -- button  3 pressed: VR off
+Virtual rotation set off
+ -- can angle =    -17.62, stage position =   0.1793
+ -- button 17 pressed: pause
+Position mode stops; pausing
+
+*** end of Logz file: ..\..\Winder.logz

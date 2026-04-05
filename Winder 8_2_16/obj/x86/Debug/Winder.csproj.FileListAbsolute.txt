@@ -1,0 +1,32 @@
+C:\Users\Gary\Documents\Visual Studio 2010\Projects\W2\W2\bin\Debug\W2.exe
+C:\Users\Gary\Documents\Visual Studio 2010\Projects\W2\W2\bin\Debug\W2.pdb
+C:\Users\Gary\Documents\Visual Studio 2010\Projects\W2\W2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Gary\Documents\Visual Studio 2010\Projects\W2\W2\obj\x86\Debug\W2.exe
+C:\Users\Gary\Documents\Visual Studio 2010\Projects\W2\W2\obj\x86\Debug\W2.pdb
+C:\Users\Gary\Documents\Visual Studio 2010\Projects\Winder\Winder\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Gary\Documents\Visual Studio 2010\Projects\Winder\Winder\bin\Debug\Winder.exe
+C:\Users\Gary\Documents\Visual Studio 2010\Projects\Winder\Winder\bin\Debug\Winder.pdb
+C:\Users\Gary\Documents\Visual Studio 2010\Projects\Winder\Winder\obj\x86\Debug\Winder.exe
+C:\Users\Gary\Documents\Visual Studio 2010\Projects\Winder\Winder\obj\x86\Debug\Winder.pdb
+C:\Users\Steven\Documents\Visual Studio 2010\Projects\Winder\Winder\bin\Debug\Winder.exe
+C:\Users\Steven\Documents\Visual Studio 2010\Projects\Winder\Winder\bin\Debug\Winder.pdb
+C:\Users\Steven\Documents\Visual Studio 2010\Projects\Winder\Winder\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Steven\Documents\Visual Studio 2010\Projects\Winder\Winder\obj\x86\Debug\Winder.exe
+C:\Users\Steven\Documents\Visual Studio 2010\Projects\Winder\Winder\obj\x86\Debug\Winder.pdb
+C:\Users\PHX2\Documents\Visual Studio 2010\Projects\Winder\obj\x86\Debug\Winder.exe
+C:\Users\PHX2\Documents\Visual Studio 2010\Projects\Winder\obj\x86\Debug\Winder.pdb
+C:\Users\PHX2\Documents\Visual Studio 2010\Projects\Winder\bin\Debug\Winder.exe
+C:\Users\PHX2\Documents\Visual Studio 2010\Projects\Winder\bin\Debug\Winder.pdb
+C:\Users\PHX2\Documents\Visual Studio 2010\Projects\Winder\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\kgage\Dropbox\Pheonix\code\Winder_Mine\Winder\obj\x86\Debug\Winder.exe
+C:\Users\kgage\Dropbox\Pheonix\code\Winder_Mine\Winder\obj\x86\Debug\Winder.pdb
+C:\Users\kgage\Dropbox\Pheonix\code\Winder_Mine\Winder\bin\Debug\Winder.exe
+C:\Users\kgage\Dropbox\Pheonix\code\Winder_Mine\Winder\bin\Debug\Winder.pdb
+C:\Users\kgage\Dropbox\Pheonix\code\Winder_Mine\Winder\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kevin\Dropbox\Pheonix\code\Winder-newest\obj\x86\Debug\Winder.exe
+C:\Users\Kevin\Dropbox\Pheonix\code\Winder-newest\obj\x86\Debug\Winder.pdb
+\\server1\Data\My Documents\Visual Studio 2010\Projects\Winder_Newest\Winder\obj\x86\Debug\Winder.exe
+\\server1\Data\My Documents\Visual Studio 2010\Projects\Winder_Newest\Winder\obj\x86\Debug\Winder.pdb
+C:\Users\PHX2\Documents\Visual Studio 2010\Projects\Winder\obj\x86\Debug\WinderProject.frm_CoilParameters.resources
+C:\Users\PHX2\Documents\Visual Studio 2010\Projects\Winder\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\PHX2\Documents\Visual Studio 2010\Projects\Winder\obj\x86\Debug\GenerateResource.write.1.tlog

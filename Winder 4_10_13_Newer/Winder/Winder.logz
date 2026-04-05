@@ -1,0 +1,158 @@
+Logz file: ..\..\Winder.logz
+
+4/3/2013 6:25:22 PM
+
+Attempting to open Parmz file: ..\..\Winder.parmz
+Parmz file opened for 16 parameters
+ -- parm 01 = 3
+ -- parm 02 = 5
+ -- parm 03 = 6
+ -- parm 04 = 1
+ -- parm 05 = 1
+ -- parm 06 = 1
+ -- parm 07 = 1
+ -- parm 08 = 1
+ -- parm 09 = 1
+ -- parm 10 = 1
+ -- parm 11 = 4
+ -- parm 12 = 1
+ -- parm 13 = 3
+ -- parm 14 = 2
+ -- parm 15 = 4
+ -- parm 16 = 0.02
+Parmz file closed: ..\..\Winder.parmz
+
+Attempting to open Parmz file: ..\..\Machine.parmz
+Parmz file opened for 22 parameters
+ -- parm 01 = 0.7
+ -- parm 02 = 1.28
+ -- parm 03 = 2.8
+ -- parm 04 = 1
+ -- parm 05 = 1
+ -- parm 06 = 20000
+ -- parm 07 = 4
+ -- parm 08 = 1
+ -- parm 09 = 0.5
+ -- parm 10 = 1
+ -- parm 11 = 0.1
+ -- parm 12 = 2.5
+ -- parm 13 = 1
+ -- parm 14 = 25
+ -- parm 15 = 0.1
+ -- parm 16 = 1
+ -- parm 17 = 0.1
+ -- parm 18 = 10
+ -- parm 19 = 5
+ -- parm 20 = 2
+ -- parm 21 = 2
+ -- parm 22 = 10
+Parmz file closed: ..\..\Machine.parmz
+
+Attempting to open Parmz file: ..\..\Coil.parmz
+Parmz file opened for 5 parameters
+ -- parm 01 = 2.546
+ -- parm 02 = 0.258
+ -- parm 03 = 24
+ -- parm 04 = 41
+ -- parm 05 = 155
+Parmz file closed: ..\..\Coil.parmz
+
+Button Box Initialization
+ -- LEDs (PacDrive) initialized
+
+Found GameController with instance GUID: 1d648880-19e1-11e2-8005-444553540000
+                       and product GUID: 1501d209-0000-0000-0000-504944564944
+
+Joystick Capabilities Summary
+ -- axes count       : 8
+ -- button count     : 32
+ -- driver version   : 0
+ -- firmware revision: 0
+ -- hardware revision: 0
+ -- is HID?          : True
+ -- POV count        : 0
+ -- device type      : 66328
+ -- subtype          : 259
+ -- device flags     : Attached, Emulated
+ -- Button Box initialized
+
+Motor Control Box Initialization
+
+Serial port open
+ -- name     : COM3
+ -- baud rate: 9600
+ -- parity   : None
+ -- data bits: 8
+ -- stop bits: One
+ -- handshake: None
+
+ -- Motor Box SMDs initialized
+
+Starting Mbox.TurnOn
+ - no turn on int sequence
+ -- motor number 1
+ -- missing response to command 1PR4
+1 command: PR4           
+1 command: PR            1 response: PR=4     , type 1
+1 command: EG20000    % 
+1 command: EG            1 response: EG=20000 , type 1
+1 command: SP0        % 
+1 command: IP            1 response: IP=00000000, type 1
+ -- motor number 2
+ -- missing response to command 2PR4
+2 command: PR4           
+2 command: PR            2 response: PR=4     , type 1
+2 command: EG20000    % 
+2 command: EG            2 response: EG=20000 , type 1
+2 command: SP0        % 
+2 command: IP            2 response: IP=0     , type 1
+ -- motor number 3
+ -- missing response to command 3PR4
+3 command: PR4           
+3 command: PR            3 response: PR=4     , type 1
+3 command: EG20000    % 
+3 command: EG            3 response: EG=20000 , type 1
+3 command: SP0        % 
+3 command: IP            3 response: IP=0     , type 1
+ -- motor number 4
+4 command: PR4        % 
+4 command: PR            4 response: PR=4     , type 1
+4 command: EG20000    % 
+4 command: EG            4 response: EG=20000 , type 1
+4 command: SP0        % 
+4 command: IP            4 response: IP=0     , type 1
+1 command: CC            1 response: CC=5     , type 1
+1 command: CI            1 response: CI=2.5   , type 1
+ -- CC and CI values are 5, 2.5
+1 command: CD1        % 
+1 command: CC2.8      % 
+1 command: CI1        % 
+2 command: CD1        % 
+2 command: CC2.8      % 
+2 command: CI1        % 
+3 command: CD1        % 
+3 command: CC2.8      % 
+3 command: CI1        % 
+4 command: CD1        % 
+4 command: CC2.8      % 
+4 command: CI1        % 
+
+Serial port open
+ -- name     : COM5
+ -- baud rate: 9600
+ -- parity   : None
+ -- data bits: 8
+ -- stop bits: One
+ -- handshake: None
+
+ -- X Pololu Jrk motor controller initialized
+
+Serial port open
+ -- name     : COM6
+ -- baud rate: 9600
+ -- parity   : None
+ -- data bits: 8
+ -- stop bits: One
+ -- handshake: None
+
+ -- Y Pololu Jrk motor controller initialized

@@ -1,0 +1,554 @@
+Logz file: ..\..\Winder.logz
+
+3/29/2026 8:38:50 PM
+
+Attempting to open Parmz file: ..\..\Winder.parmz
+Parmz file opened for 16 parameters
+ -- parm 01 = 3
+ -- parm 02 = 5
+ -- parm 03 = 6
+ -- parm 04 = 1
+ -- parm 05 = 1
+ -- parm 06 = 1
+ -- parm 07 = 1
+ -- parm 08 = 1
+ -- parm 09 = 1
+ -- parm 10 = 1
+ -- parm 11 = 4
+ -- parm 12 = 1
+ -- parm 13 = 3
+ -- parm 14 = 2
+ -- parm 15 = 4
+ -- parm 16 = 0.02
+Parmz file closed: ..\..\Winder.parmz
+
+Attempting to open Parmz file: ..\..\Machine.parmz
+Parmz file opened for 22 parameters
+ -- parm 01 = 0.7
+ -- parm 02 = 1.28
+ -- parm 03 = 2.8
+ -- parm 04 = 1
+ -- parm 05 = 1
+ -- parm 06 = 20000
+ -- parm 07 = 4
+ -- parm 08 = 1
+ -- parm 09 = 0.5
+ -- parm 10 = 1
+ -- parm 11 = 0.1
+ -- parm 12 = 2.5
+ -- parm 13 = 1
+ -- parm 14 = 25
+ -- parm 15 = 0.1
+ -- parm 16 = 1
+ -- parm 17 = 0.1
+ -- parm 18 = 10
+ -- parm 19 = 5
+ -- parm 20 = 2
+ -- parm 21 = 2
+ -- parm 22 = 10
+Parmz file closed: ..\..\Machine.parmz
+
+Attempting to open Parmz file: ..\..\Coil.parmz
+Parmz file opened for 5 parameters
+ -- parm 01 = 2.19
+ -- parm 02 = 0.71
+ -- parm 03 = 36
+ -- parm 04 = 133
+ -- parm 05 = 135.4
+Parmz file closed: ..\..\Coil.parmz
+
+Button Box Initialization
+ -- LEDs (PacDrive) initialized
+
+Found GameController with instance GUID: 1d648880-19e1-11e2-8005-444553540000
+                       and product GUID: 1501d209-0000-0000-0000-504944564944
+
+Joystick Capabilities Summary
+ -- axes count       : 8
+ -- button count     : 32
+ -- driver version   : 0
+ -- firmware revision: 0
+ -- hardware revision: 0
+ -- is HID?          : True
+ -- POV count        : 0
+ -- device type      : 66328
+ -- subtype          : 259
+ -- device flags     : Attached, Emulated
+ -- Button Box initialized
+
+Motor Control Box Initialization
+
+Serial port open
+ -- name     : COM3
+ -- baud rate: 9600
+ -- parity   : None
+ -- data bits: 8
+ -- stop bits: One
+ -- handshake: None
+
+ -- Motor Box SMDs initialized
+
+Starting Mbox.TurnOn
+ - no turn on int sequence
+ -- motor number 1
+ -- missing response to command 1PR4
+1 command: PR4           
+1 command: PR            1 response: PR=4     , type 1
+1 command: EG20000    % 
+1 command: EG            1 response: EG=20000 , type 1
+1 command: SP0        % 
+1 command: IP            1 response: IP=00000000, type 1
+ -- motor number 2
+ -- missing response to command 2PR4
+2 command: PR4           
+2 command: PR            2 response: PR=4     , type 1
+2 command: EG20000    % 
+2 command: EG            2 response: EG=20000 , type 1
+2 command: SP0        % 
+2 command: IP            2 response: IP=0     , type 1
+ -- motor number 3
+ -- missing response to command 3PR4
+3 command: PR4           
+3 command: PR            3 response: PR=4     , type 1
+3 command: EG20000    % 
+3 command: EG            3 response: EG=20000 , type 1
+3 command: SP0        % 
+3 command: IP            3 response: IP=0     , type 1
+ -- motor number 4
+4 command: PR4        % 
+4 command: PR            4 response: PR=4     , type 1
+4 command: EG20000    % 
+4 command: EG            4 response: EG=20000 , type 1
+4 command: SP0        % 
+4 command: IP            4 response: IP=0     , type 1
+1 command: CC            1 response: CC=5     , type 1
+1 command: CI            1 response: CI=2.5   , type 1
+ -- CC and CI values are 5, 2.5
+1 command: CD1        % 
+1 command: CC2.8      % 
+1 command: CI1        % 
+2 command: CD1        % 
+2 command: CC2.8      % 
+2 command: CI1        % 
+3 command: CD1        % 
+3 command: CC2.8      % 
+3 command: CI1        % 
+4 command: CD1        % 
+4 command: CC2.8      % 
+4 command: CI1        % 
+
+Serial port open
+ -- name     : COM5
+ -- baud rate: 9600
+ -- parity   : None
+ -- data bits: 8
+ -- stop bits: One
+ -- handshake: None
+
+ -- X Pololu Jrk motor controller initialized
+
+Serial port open
+ -- name     : COM6
+ -- baud rate: 9600
+ -- parity   : None
+ -- data bits: 8
+ -- stop bits: One
+ -- handshake: None
+
+ -- Y Pololu Jrk motor controller initialized
+1 command: IS            1 response: IS=00000110, type 1
+
+Setup ---
+Joystick speed set to fast
+ -- bump counts = 1066
+ -- steps per can turn = 80000
+ -- can jog acceleration (SM (rev/sec)/sec) = 10
+ -- computed base layer turns = 133
+1 command: VE1        % 
+2 command: VE1        % 
+1 command: AC25       % 
+2 command: AC25       % 
+3 command: VE2        % 
+4 command: VE2        % 
+3 command: AC10       % 
+4 command: AC10       % 
+ -- can   Fl velocity = 1
+ -- can   Fl accel    = 25
+ -- stage Fl velocity = 2
+ -- stage Fl accel    = 10
+ -- time step (seconds) : 0.02   (tics) : 200000
+Transition to position mode
+1 command: IS            1 response: IS=00000110, type 1
+Position mode begins.......................................
+Left side active; X is left; X Jrk in park; Y Jrk in park
+ -- can angle =      0.00, stage position =   0.0000
+ -- button  4 pressed: VR on
+Virtual rotation set on
+ -- can angle =    -20.22, stage position =   0.0000
+ -- button  3 pressed: VR off
+Virtual rotation set off
+ -- can angle =      0.00, stage position =   0.0000
+ -- can angle =      0.00, stage position =  -0.2174
+ -- button 17 pressed: pause
+Position mode stops; pausing
+
+Attempting to open Parmz file: ..\..\Coil.parmz
+Parmz file opened for 5 parameters
+ -- parm 01 = 2.19
+ -- parm 02 = 0.71
+ -- parm 03 = 36
+ -- parm 04 = 133
+ -- parm 05 = 135.4
+Parmz file closed: ..\..\Coil.parmz
+
+Attempting to open Parmz file: ..\..\Coil.parmz
+Parmz file opened for reading
+
+Attempting to open Parmz file: ..\..\Coil.parmz
+Parmz file opened for 5 parameters
+ -- parm 01 = 2.19
+ -- parm 02 = 0.71
+ -- parm 03 = 36
+ -- parm 04 = 133
+ -- parm 05 = 135.4
+Parmz file closed: ..\..\Coil.parmz
+Transition to position mode
+Position mode begins.......................................
+Left side active; X is left; X Jrk in park; Y Jrk in park
+ -- button  9 pressed: active break on/off toggle
+Active brake set on
+ -- button 10 pressed: inactive break on/off toggle
+Both brakes may not be on -- action denied
+Inactive brake set off
+ -- can angle =      0.00, stage position =  -0.0545
+ -- button  9 pressed: active break on/off toggle
+Active brake set off
+ -- button  9 pressed: active break on/off toggle
+Active brake set on
+ -- button 10 pressed: inactive break on/off toggle
+Both brakes may not be on -- action denied
+Inactive brake set off
+ -- button 10 pressed: inactive break on/off toggle
+Both brakes may not be on -- action denied
+Inactive brake set off
+ -- button  9 pressed: active break on/off toggle
+Active brake set off
+ -- can angle =      0.00, stage position =   0.1568
+ -- can angle =      0.00, stage position =   0.3641
+ -- can angle =      0.00, stage position =   0.5661
+ -- can angle =      0.00, stage position =   0.7695
+ -- can angle =      0.00, stage position =   0.9870
+ -- can angle =      0.00, stage position =   1.1954
+ -- button 12 pressed: left start
+ -- record leftStartX to be   1.3208 inches
+ -- can angle =      0.00, stage position =   0.9943
+ -- can angle =      0.00, stage position =   0.7888
+ -- button 11 pressed: right start
+ -- record rightStartX to be   0.7428 inches
+ -- can angle =      0.00, stage position =   0.5790
+ -- can angle =      0.00, stage position =   0.3648
+ -- can angle =      0.00, stage position =   0.1383
+ -- can angle =      0.00, stage position =  -0.0758
+ -- button 13 pressed: park
+ -- record parkX to be  -0.1363 inches
+ -- button 14 pressed: home theta
+ -- home theta; current can position reset to zero
+ -- button 17 pressed: pause
+Position mode stops; pausing
+Transition to position mode
+Position mode begins.......................................
+Left side active; Y is left; X Jrk in park; Y Jrk in park
+ -- can angle =    -26.25, stage position =   0.0000
+ -- button  9 pressed: active break on/off toggle
+Active brake set on
+ -- button  9 pressed: active break on/off toggle
+Active brake set off
+ -- button 10 pressed: inactive break on/off toggle
+Inactive brake set on
+ -- button 10 pressed: inactive break on/off toggle
+Inactive brake set off
+ -- button  9 pressed: active break on/off toggle
+Active brake set on
+ -- can angle =    -26.25, stage position =   0.2051
+ -- can angle =    -26.25, stage position =   0.4203
+ -- button 12 pressed: left start
+ -- record leftStartY to be   0.5238 inches
+ -- can angle =    -26.25, stage position =   0.6509
+ -- can angle =    -26.25, stage position =   0.8702
+ -- can angle =    -26.25, stage position =   1.0708
+ -- can angle =    -26.25, stage position =   1.2746
+ -- button 11 pressed: right start
+ -- record rightStartY to be   1.3570 inches
+ -- can angle =    -26.25, stage position =   1.0665
+ -- can angle =    -26.25, stage position =   0.8611
+ -- button 12 pressed: left start
+ -- record leftStartY to be   0.7043 inches
+ -- can angle =    -26.25, stage position =   0.6465
+ -- can angle =    -26.25, stage position =   0.4382
+ -- can angle =    -26.25, stage position =   0.2276
+ -- can angle =    -26.25, stage position =   0.0110
+ -- can angle =    -26.25, stage position =  -0.1967
+ -- button 13 pressed: park
+ -- record parkY to be  -0.3846 inches
+ -- button 14 pressed: home theta
+ -- home theta; current can position reset to zero
+ -- can angle =      0.00, stage position =  -0.3846
+ -- button 17 pressed: pause
+Position mode stops; pausing
+Transition to wind mode
+Wind mode begins...........................................
+TDC aborted as position is zero
+Winding a layer begins...............................
+ -- Attempting to set cans to correct start possition
+Inactive brake set off
+Active brake set on
+ -- goto leftStartX at   1.3208 inches
+Y side Jrk set to to park
+ -- getting layer start position
+ -- jogging begins on layer 1
+ -- can turn =    1,  can steps =      81117
+ -- can turn =    2,  can steps =     162184
+ -- can turn =    3,  can steps =     242580
+ -- can turn =    4,  can steps =     321766
+ -- can turn =    5,  can steps =     400100
+ -- can turn =    6,  can steps =     482050
+ -- can turn =    7,  can steps =     561407
+ -- can turn =    8,  can steps =     640797
+ -- can turn =    9,  can steps =     720171
+ -- can turn =   10,  can steps =     802121
+ -- can turn =   11,  can steps =     881414
+ -- can turn =   12,  can steps =     960804
+ -- can turn =   13,  can steps =    1040162
+ -- can turn =   14,  can steps =    1122128
+ -- can turn =   15,  can steps =    1201582
+ -- can turn =   16,  can steps =    1280811
+ -- can turn =   17,  can steps =    1360185
+ -- can turn =   18,  can steps =    1442119
+ -- can turn =   19,  can steps =    1521492
+ -- can turn =   20,  can steps =    1600898
+ -- can turn =   21,  can steps =    1680192
+ -- can turn =   22,  can steps =    1762126
+ -- can turn =   23,  can steps =    1841516
+ -- can turn =   24,  can steps =    1920905
+ -- can turn =   25,  can steps =    2000263
+ -- can turn =   26,  can steps =    2082229
+ -- can turn =   27,  can steps =    2161539
+ -- can turn =   28,  can steps =    2240912
+ -- can turn =   29,  can steps =    2320302
+ -- can turn =   30,  can steps =    2402236
+ -- can turn =   31,  can steps =    2480996
+ -- can turn =   32,  can steps =    2560088
+ -- can turn =   33,  can steps =    2640930
+ -- can turn =   34,  can steps =    2720320
+ -- can turn =   35,  can steps =    2802158
+ -- can turn =   36,  can steps =    2881564
+ -- can turn =   37,  can steps =    2960921
+ -- can turn =   38,  can steps =    3040343
+ -- can turn =   39,  can steps =    3122261
+ -- can turn =   40,  can steps =    3201555
+ -- can turn =   41,  can steps =    3280945
+ -- can turn =   42,  can steps =    3360319
+ -- can turn =   43,  can steps =    3442268
+ -- can turn =   44,  can steps =    3521642
+ -- can turn =   45,  can steps =    3600952
+ -- can turn =   46,  can steps =    3680342
+ -- can turn =   47,  can steps =    3762291
+ -- can turn =   48,  can steps =    3841633
+ -- can turn =   49,  can steps =    3921055
+ -- can turn =   50,  can steps =    4000413
+ -- can turn =   51,  can steps =    4082282
+ -- can turn =   52,  can steps =    4161656
+ -- can turn =   53,  can steps =    4241046
+ -- can turn =   54,  can steps =    4320436
+ -- can turn =   55,  can steps =    4402369
+ -- can turn =   56,  can steps =    4481679
+ -- can turn =   57,  can steps =    4561069
+ -- can turn =   58,  can steps =    4640443
+ -- can turn =   59,  can steps =    4722376
+ -- can turn =   60,  can steps =    4802215
+ -- can turn =   61,  can steps =    4881573
+ -- can turn =   62,  can steps =    4960995
+ -- can turn =   63,  can steps =    5040289
+ -- can turn =   64,  can steps =    5122238
+ -- can turn =   65,  can steps =    5201612
+ -- can turn =   66,  can steps =    5280986
+ -- can turn =   67,  can steps =    5360360
+ -- can turn =   68,  can steps =    5442230
+ -- can turn =   69,  can steps =    5521619
+ -- can turn =   70,  can steps =    5600993
+ -- can turn =   71,  can steps =    5680383
+ -- can turn =   72,  can steps =    5762301
+ -- can turn =   73,  can steps =    5841626
+ -- can turn =   74,  can steps =    5921000
+ -- can turn =   75,  can steps =    6000390
+ -- can turn =   76,  can steps =    6082340
+ -- can turn =   77,  can steps =    6161714
+ -- can turn =   78,  can steps =    6241087
+ -- can turn =   79,  can steps =    6320413
+ -- can turn =   80,  can steps =    6402331
+ -- can turn =   81,  can steps =    6481721
+ -- can turn =   82,  can steps =    6561094
+ -- can turn =   83,  can steps =    6640484
+ -- can turn =   84,  can steps =    6722354
+ -- can turn =   85,  can steps =    6801728
+ -- can turn =   86,  can steps =    6881133
+ -- can turn =   87,  can steps =    6960475
+ -- can turn =   88,  can steps =    7042441
+ -- can turn =   89,  can steps =    7121735
+ -- can turn =   90,  can steps =    7201125
+ -- can turn =   91,  can steps =    7280498
+ -- can turn =   92,  can steps =    7362432
+ -- can turn =   93,  can steps =    7441822
+ -- can turn =   94,  can steps =    7521148
+ -- can turn =   95,  can steps =    7600505
+ -- can turn =   96,  can steps =    7682455
+ -- can turn =   97,  can steps =    7761829
+ -- can turn =   98,  can steps =    7841219
+ -- can turn =   99,  can steps =    7920529
+ -- can turn =  100,  can steps =    8002462
+ -- can turn =  101,  can steps =    8081852
+ -- can turn =  102,  can steps =    8161226
+ -- can turn =  103,  can steps =    8240616
+ -- can turn =  104,  can steps =    8322566
+ -- can turn =  105,  can steps =    8401859
+ -- can turn =  106,  can steps =    8481233
+ -- can turn =  107,  can steps =    8560607
+ -- can turn =  108,  can steps =    8640013
+ -- can turn =  109,  can steps =    8721914
+ -- can turn =  110,  can steps =    8801240
+ -- can turn =  111,  can steps =    8880598
+ -- can turn =  112,  can steps =    8960020
+ -- can turn =  113,  can steps =    9041937
+ -- can turn =  114,  can steps =    9121327
+ -- can turn =  115,  can steps =    9200701
+ -- can turn =  116,  can steps =    9280011
+ -- can turn =  117,  can steps =    9361944
+ -- can turn =  118,  can steps =    9441334
+ -- can turn =  119,  can steps =    9520692
+ -- can turn =  120,  can steps =    9600098
+ -- can turn =  121,  can steps =    9681952
+ -- can turn =  122,  can steps =    9761341
+ -- can turn =  123,  can steps =    9840731
+ -- can turn =  124,  can steps =    9920121
+ -- can turn =  125,  can steps =   10002039
+ -- can turn =  126,  can steps =   10081349
+ -- can turn =  127,  can steps =   10160739
+ -- can turn =  128,  can steps =   10240112
+ -- can turn =  129,  can steps =   10322062
+ -- can turn =  130,  can steps =   10401452
+ -- can turn =  131,  can steps =   10480810
+ -- can turn =  132,  can steps =   10560135
+ -- can turn =  133,  can steps =   10640010
+ -- can turn =  132,  can steps =   10639415
+ -- can turn =  131,  can steps =   10559903
+ -- can turn =  130,  can steps =   10478351
+ -- can turn =  131,  can steps =   10480119
+ -- can turn =  132,  can steps =   10560019
+ -- can turn =  131,  can steps =   10559317
+ -- can turn =  130,  can steps =   10476701
+ -- can turn =  129,  can steps =   10399136
+ -- can turn =  128,  can steps =   10319398
+ -- can turn =  127,  can steps =   10239733
+ -- can turn =  126,  can steps =   10158075
+ -- can turn =  127,  can steps =   10161737
+ -- can turn =  128,  can steps =   10241998
+ -- can turn =  129,  can steps =   10323727
+ -- can turn =  130,  can steps =   10400989
+ -- can turn =  131,  can steps =   10483410
+ -- can turn =  132,  can steps =   10561575
+ -- can turn =  133,  can steps =   10641710
+ -- can turn =  134,  can steps =   10723622
+ -- can turn =  135,  can steps =   10800177
+ -- can turn =  134,  can steps =   10799854
+ -- can turn =  133,  can steps =   10718969
+ -- button 17 pressed: pause
+Wind mode stops; pausing
+ -- can position after reset  is 0
+ -- Actual turns for layer 1 = 133
+ -- Operator entered turns for layer 1 = 133
+ -- goto parkX at  -0.1363 inches
+Transition to wind mode
+Wind mode begins...........................................
+TDC aborted as position is zero
+Winding a layer begins...............................
+ -- Attempting to set cans to correct start possition
+Inactive brake set off
+Active brake set on
+ -- goto rightStartY at   1.3570 inches
+X side Jrk set to to servo
+Y side Jrk set to to park
+ -- getting layer start position
+ -- jogging begins on layer 2
+ -- can turn =    1,  can steps =      81238
+ -- can turn =    2,  can steps =     160628
+ -- can turn =    3,  can steps =     240002
+ -- can turn =    4,  can steps =     321952
+ -- can turn =    5,  can steps =     401309
+ -- can turn =    6,  can steps =     480699
+ -- can turn =    7,  can steps =     562553
+ -- can turn =    8,  can steps =     641943
+ -- can turn =    9,  can steps =     721333
+ -- can turn =   10,  can steps =     800706
+ -- can turn =   11,  can steps =     881822
+ -- can turn =   10,  can steps =     879988
+ -- button 17 pressed: pause
+Wind mode stops; pausing
+Transition to rescue mode
+Wind mode begins...........................................
+Jogging resumes on layer 2
+ -- button 17 pressed: pause
+Wind mode stops; pausing
+Transition to rescue mode
+Wind mode begins...........................................
+Jogging resumes on layer 2
+ -- button 17 pressed: pause
+Wind mode stops; pausing
+ -- can position after reset  is 0
+ -- goto leftStartY at   0.7043 inches
+Transition to wind mode
+Wind mode begins...........................................
+TDC aborted as position is zero
+Winding a layer begins...............................
+ -- Attempting to set cans to correct start possition
+Inactive brake set off
+Active brake set on
+ -- goto rightStartY at   1.3570 inches
+X side Jrk set to to servo
+Y side Jrk set to to park
+ -- getting layer start position
+ -- jogging begins on layer 2
+ -- button 17 pressed: pause
+Wind mode stops; pausing
+TDC aborted as position is zero
+ -- goto leftStartY at   0.7043 inches
+Transition to rescue mode
+Wind mode begins...........................................
+TDC aborted as position is zero
+Winding a layer begins...............................
+ -- Attempting to set cans to correct start possition
+Inactive brake set off
+Active brake set on
+ -- goto rightStartX at   0.7428 inches
+X side Jrk set to to park
+Y side Jrk set to to servo
+ -- getting layer start position
+ -- jogging begins on layer 4
+ -- can turn =    1,  can steps =      83177
+ -- button  4 pressed: VR on
+ *** cannot change virtual rotation in wind mode
+ -- button 17 pressed: pause
+Wind mode stops; pausing
+Transition to position mode
+Position mode begins.......................................
+Left side active; X is left; X Jrk in park; Y Jrk in servo
+ -- can angle =    630.86, stage position =   0.7428
+ -- button  4 pressed: VR on
+Virtual rotation set on
+ -- can angle =      0.00, stage position =   0.7043
+ -- can angle =      0.00, stage position =   0.4909
+ -- can angle =      0.00, stage position =   0.2796
+ -- can angle =      0.00, stage position =   0.0560
+ -- button 17 pressed: pause
+Position mode stops; pausing
+Transition to wind mode
+Wind mode begins.................

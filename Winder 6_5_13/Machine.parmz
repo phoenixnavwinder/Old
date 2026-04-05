@@ -1,0 +1,36 @@
+// Machine.parmz -- 12/10/2012 -- default version
+// All lines in this file that, like this one, begin with two slashes are 
+// comment lines ignored by the code. Blank lines are ignored. The 22 numbered
+// lines must be present, in order and in "colon" format.
+
+// Polulu Tensioner Servo Parameters -------------------------------------------
+01: X side :  0.7 volts
+02: Y side :  1.28  volts
+
+// Motor Current Parameters ----------------------------------------------------
+03: Motor current                   :   2.8  amperes
+04: Idle current                    :   1.0  amperes
+05: Idle current delay time         :   1.0  seconds
+ 
+// Can Rotation Parameters -----------------------------------------------------
+06: SMD encoder steps per rev       :  20000 (suggest not change)
+07: SMD revs per can rev            :   4
+08: Max speed with foot pedal (fast):   1.0  turns/second
+09: Max speed with foot pedal (slow):   0.5  turns/second
+10: Max speed with Y joystick (fast):   1.0  turns/second
+11: Max speed with Y joystick (slow):   0.1  turns/second
+12: Max can angular acceleration    :   2.5  (turns/second)/second 
+13: Can SM FL velocity              :   1.0  revolutions/second
+14: Can SM FL acceleration          :  25.0  (revolutions/second)/second
+
+// Stage Motion Parameters -----------------------------------------------------
+15: Stage motion per SM rev         :   0.1  inches/revolution
+16: Max speed with X joystick (fast):   1.0  inch/second
+17: Max speed with X joystick (slow):   0.1  micron/second
+18: Max SMD angular acceleration    :  10    (revolutions/second)/second
+19: Bump point wrt TDC              :   5.0  degrees
+20: Number of turns with no bump    :   2
+21: Stage SM FL velocity            :   2.0  revolutions/second
+22: Stage SM FL acceleration        :  10.0  (revolutions/second)/second
+
+// end of file Machine.parmz

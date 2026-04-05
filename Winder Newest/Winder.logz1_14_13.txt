@@ -1,0 +1,1713 @@
+Logz file: ..\..\Winder.logz
+
+1/14/2013 11:12:06 AM
+
+Attempting to open Parmz file: ..\..\Winder.parmz
+Parmz file opened for 16 parameters
+ -- parm 01 = 3
+ -- parm 02 = 5
+ -- parm 03 = 6
+ -- parm 04 = 1
+ -- parm 05 = 1
+ -- parm 06 = 1
+ -- parm 07 = 1
+ -- parm 08 = 1
+ -- parm 09 = 1
+ -- parm 10 = 1
+ -- parm 11 = 4
+ -- parm 12 = 1
+ -- parm 13 = 3
+ -- parm 14 = 2
+ -- parm 15 = 4
+ -- parm 16 = 0.02
+Parmz file closed: ..\..\Winder.parmz
+
+Attempting to open Parmz file: ..\..\Machine.parmz
+Parmz file opened for 22 parameters
+ -- parm 01 = 0.7
+ -- parm 02 = 1.28
+ -- parm 03 = 2.8
+ -- parm 04 = 1
+ -- parm 05 = 1
+ -- parm 06 = 20000
+ -- parm 07 = 4
+ -- parm 08 = 1
+ -- parm 09 = 0.5
+ -- parm 10 = 1
+ -- parm 11 = 0.1
+ -- parm 12 = 2.5
+ -- parm 13 = 1
+ -- parm 14 = 25
+ -- parm 15 = 0.1
+ -- parm 16 = 1
+ -- parm 17 = 0.1
+ -- parm 18 = 10
+ -- parm 19 = 5
+ -- parm 20 = 2
+ -- parm 21 = 2
+ -- parm 22 = 10
+Parmz file closed: ..\..\Machine.parmz
+
+Attempting to open Parmz file: ..\..\Coil.parmz
+Parmz file opened for 5 parameters
+ -- parm 01 = 2.546
+ -- parm 02 = 0.258
+ -- parm 03 = 22
+ -- parm 04 = 41
+ -- parm 05 = 155
+Parmz file closed: ..\..\Coil.parmz
+
+Button Box Initialization
+ -- LEDs (PacDrive) initialized
+
+Found GameController with instance GUID: 1d648880-19e1-11e2-8005-444553540000
+                       and product GUID: 1501d209-0000-0000-0000-504944564944
+
+Joystick Capabilities Summary
+ -- axes count       : 8
+ -- button count     : 32
+ -- driver version   : 0
+ -- firmware revision: 0
+ -- hardware revision: 0
+ -- is HID?          : True
+ -- POV count        : 0
+ -- device type      : 66328
+ -- subtype          : 259
+ -- device flags     : Attached, Emulated
+ -- Button Box initialized
+
+Motor Control Box Initialization
+
+Serial port open
+ -- name     : COM3
+ -- baud rate: 9600
+ -- parity   : None
+ -- data bits: 8
+ -- stop bits: One
+ -- handshake: None
+
+ -- Motor Box SMDs initialized
+
+Starting Mbox.TurnOn
+ - no turn on int sequence
+ -- motor number 1
+ -- missing response to command 1PR4
+1 command: PR4           
+1 command: PR            1 response: PR=4     , type 1
+1 command: EG20000    % 
+1 command: EG            1 response: EG=20000 , type 1
+1 command: SP0        % 
+1 command: IP            1 response: IP=00000000, type 1
+ -- motor number 2
+ -- missing response to command 2PR4
+2 command: PR4           
+2 command: PR            2 response: PR=4     , type 1
+2 command: EG20000    % 
+2 command: EG            2 response: EG=20000 , type 1
+2 command: SP0        % 
+2 command: IP            2 response: IP=0     , type 1
+ -- motor number 3
+ -- missing response to command 3PR4
+3 command: PR4           
+3 command: PR            3 response: PR=4     , type 1
+3 command: EG20000    % 
+3 command: EG            3 response: EG=20000 , type 1
+3 command: SP0        % 
+3 command: IP            3 response: IP=0     , type 1
+ -- motor number 4
+4 command: PR4        % 
+4 command: PR            4 response: PR=4     , type 1
+4 command: EG20000    % 
+4 command: EG            4 response: EG=20000 , type 1
+4 command: SP0        % 
+4 command: IP            4 response: IP=0     , type 1
+1 command: CC            1 response: CC=5     , type 1
+1 command: CI            1 response: CI=2.5   , type 1
+ -- CC and CI values are 5, 2.5
+1 command: CD1        % 
+1 command: CC2.8      % 
+1 command: CI1        % 
+2 command: CD1        % 
+2 command: CC2.8      % 
+2 command: CI1        % 
+3 command: CD1        % 
+3 command: CC2.8      % 
+3 command: CI1        % 
+4 command: CD1        % 
+4 command: CC2.8      % 
+4 command: CI1        % 
+
+Serial port open
+ -- name     : COM5
+ -- baud rate: 9600
+ -- parity   : None
+ -- data bits: 8
+ -- stop bits: One
+ -- handshake: None
+
+ -- X Pololu Jrk motor controller initialized
+
+Serial port open
+ -- name     : COM6
+ -- baud rate: 9600
+ -- parity   : None
+ -- data bits: 8
+ -- stop bits: One
+ -- handshake: None
+
+ -- Y Pololu Jrk motor controller initialized
+1 command: IS            1 response: IS=00000110, type 1
+
+Setup ---
+Joystick speed set to fast
+ -- bump counts = 1220
+ -- steps per can turn = 80000
+ -- can jog acceleration (SM (rev/sec)/sec) = 10
+ -- computed base layer turns = 42
+1 command: VE1        % 
+2 command: VE1        % 
+1 command: AC25       % 
+2 command: AC25       % 
+3 command: VE2        % 
+4 command: VE2        % 
+3 command: AC10       % 
+4 command: AC10       % 
+ -- can   Fl velocity = 1
+ -- can   Fl accel    = 25
+ -- stage Fl velocity = 2
+ -- stage Fl accel    = 10
+ -- time step (seconds) : 0.02   (tics) : 200000
+Transition to position mode
+1 command: IS            1 response: IS=00000110, type 1
+Position mode begins.......................................
+Left side active; X is left; X Jrk in park; Y Jrk in park
+ -- can angle =      0.00, stage position =   0.0000
+ -- button  9 pressed: active break on/off toggle
+Active brake set on
+ -- button  6 pressed: fast/slow toggle
+Joystick speed set to slow
+ -- can angle =      4.53, stage position =   0.2052
+ -- can angle =      4.53, stage position =   0.4079
+ -- can angle =      4.53, stage position =   0.6095
+ -- can angle =      4.53, stage position =   0.8122
+ -- can angle =      4.53, stage position =   1.0170
+ -- can angle =      4.53, stage position =   1.2218
+ -- can angle =      4.53, stage position =   1.4224
+ -- button 11 pressed: right start
+ -- record rightStartX to be   1.4927 inches
+ -- can angle =      4.53, stage position =   1.6228
+ -- button 12 pressed: left start
+ -- record leftStartX to be   1.7770 inches
+ -- can angle =      4.53, stage position =   1.4177
+ -- can angle =      4.53, stage position =   1.2129
+ -- can angle =      4.53, stage position =   1.0080
+ -- can angle =      4.53, stage position =   0.8032
+ -- can angle =      4.53, stage position =   0.5984
+ -- can angle =      4.53, stage position =   0.3936
+ -- button 13 pressed: park
+ -- record parkX to be   0.2812 inches
+ -- button 14 pressed: home theta
+ -- home theta; current can position reset to zero
+ -- button 17 pressed: pause
+Position mode stops; pausing
+Transition to position mode
+Position mode begins.......................................
+Left side active; Y is left; X Jrk in park; Y Jrk in park
+ -- button  9 pressed: active break on/off toggle
+Active brake set off
+ -- can angle =      0.00, stage position =   0.0000
+ -- button  9 pressed: active break on/off toggle
+Active brake set on
+ -- button 10 pressed: inactive break on/off toggle
+Both brakes may not be on -- action denied
+Inactive brake set off
+ -- can angle =      0.00, stage position =   0.2021
+ -- can angle =      0.00, stage position =   0.4037
+ -- can angle =      0.00, stage position =   0.6053
+ -- can angle =      0.00, stage position =   0.8069
+ -- can angle =      0.00, stage position =   1.0102
+ -- can angle =      0.00, stage position =   1.2133
+ -- can angle =      0.00, stage position =   1.4149
+ -- can angle =      0.00, stage position =   1.6166
+ -- button 11 pressed: right start
+ -- record rightStartY to be   1.6971 inches
+ -- can angle =      0.00, stage position =   1.8192
+ -- button 12 pressed: left start
+ -- record leftStartY to be   1.9731 inches
+ -- can angle =      0.00, stage position =   1.6170
+ -- can angle =      0.00, stage position =   1.4153
+ -- can angle =      0.00, stage position =   1.2138
+ -- can angle =      0.00, stage position =   1.0121
+ -- can angle =      0.00, stage position =   0.8105
+ -- can angle =      0.00, stage position =   0.6090
+ -- button 13 pressed: park
+ -- record parkY to be   0.5051 inches
+ -- button 14 pressed: home theta
+ -- home theta; current can position reset to zero
+ -- button 17 pressed: pause
+Position mode stops; pausing
+Transition to position mode
+Position mode begins.......................................
+Left side active; X is left; X Jrk in park; Y Jrk in park
+ -- can angle =      0.00, stage position =   0.2812
+ -- button  9 pressed: active break on/off toggle
+Active brake set off
+ -- button  9 pressed: active break on/off toggle
+Active brake set on
+ -- button 10 pressed: inactive break on/off toggle
+Both brakes may not be on -- action denied
+Inactive brake set off
+ -- button  8 pressed: record/goto toggle
+ -- button 12 pressed: left start
+ -- goto leftStartX at   1.7770 inches
+ -- can angle =      0.00, stage position =   0.4820
+ -- can angle =      0.00, stage position =   0.6837
+ -- can angle =      0.00, stage position =   0.8853
+ -- can angle =      0.00, stage position =   1.0870
+ -- can angle =      0.00, stage position =   1.2884
+ -- can angle =      0.00, stage position =   1.4901
+ -- can angle =      0.00, stage position =   1.6918
+ -- button 17 pressed: pause
+Position mode stops; pausing
+Transition to wind mode
+Wind mode begins...........................................
+TDC aborted as position is zero
+Winding a layer begins...............................
+ -- getting layer start position
+ -- jogging begins on layer 1
+ -- can turn =    1,  can steps =      80055
+ -- can turn =    2,  can steps =     160146
+ -- can turn =    3,  can steps =     240678
+ -- can turn =    4,  can steps =     320046
+ -- can turn =    5,  can steps =     400523
+ -- can turn =    6,  can steps =     481617
+ -- can turn =    7,  can steps =     560328
+ -- can turn =    8,  can steps =     640355
+ -- can turn =    9,  can steps =     720736
+ -- can turn =   10,  can steps =     800584
+ -- can turn =   11,  can steps =     880090
+ -- can turn =   12,  can steps =     960907
+ -- can turn =   13,  can steps =    1041793
+ -- can turn =   14,  can steps =    1120647
+ -- can turn =   15,  can steps =    1200685
+ -- can turn =   16,  can steps =    1280227
+ -- can turn =   17,  can steps =    1361663
+ -- can turn =   18,  can steps =    1440988
+ -- can turn =   19,  can steps =    1520460
+ -- can turn =   20,  can steps =    1601291
+ -- can turn =   21,  can steps =    1680836
+ -- can turn =   22,  can steps =    1760347
+ -- can turn =   23,  can steps =    1840444
+ -- can turn =   24,  can steps =    1920578
+ -- can turn =   25,  can steps =    2000692
+ -- can turn =   26,  can steps =    2082269
+ -- can turn =   27,  can steps =    2161815
+ -- can turn =   28,  can steps =    2240218
+ -- can turn =   29,  can steps =    2320878
+ -- can turn =   30,  can steps =    2400396
+ -- can turn =   31,  can steps =    2481351
+ -- can turn =   32,  can steps =    2560135
+ -- can turn =   33,  can steps =    2640779
+ -- can turn =   34,  can steps =    2720454
+ -- can turn =   35,  can steps =    2800253
+ -- can turn =   36,  can steps =    2881235
+ -- can turn =   37,  can steps =    2961240
+ -- can turn =   38,  can steps =    3040333
+ -- can turn =   39,  can steps =    3121280
+ -- can turn =   40,  can steps =    3200373
+ -- can turn =   41,  can steps =    3281331
+ -- can turn =   42,  can steps =    3360028
+ -- button 17 pressed: pause
+Wind mode stops; pausing
+ -- can position after reset  is 0
+ -- Actual turns for layer 1 = 42
+ -- Operator entered turns for layer 1 = 42
+Transition to position mode
+Position mode begins.......................................
+Left side active; X is left; X Jrk in park; Y Jrk in park
+ -- can angle =      0.00, stage position =   1.5330
+ -- button 13 pressed: park
+ -- goto parkX at   0.2812 inches
+ -- can angle =      0.00, stage position =   1.3312
+ -- can angle =      0.00, stage position =   1.1295
+ -- can angle =      0.00, stage position =   0.9278
+ -- can angle =      0.00, stage position =   0.7262
+ -- can angle =      0.00, stage position =   0.5248
+ -- can angle =      0.00, stage position =   0.3231
+ -- button 17 pressed: pause
+Position mode stops; pausing
+Transition to position mode
+Position mode begins.......................................
+Left side active; Y is left; X Jrk in park; Y Jrk in park
+ -- can angle =      0.00, stage position =   0.5051
+ -- button 11 pressed: right start
+ -- goto rightStartY at   1.6971 inches
+ -- can angle =      0.00, stage position =   0.7110
+ -- can angle =      0.00, stage position =   0.9126
+ -- can angle =      0.00, stage position =   1.1143
+ -- can angle =      0.00, stage position =   1.3159
+ -- can angle =      0.00, stage position =   1.5173
+ -- button 13 pressed: park
+ -- goto parkY at   0.5051 inches
+ -- can angle =      0.00, stage position =   1.3153
+ -- can angle =      0.00, stage position =   1.1139
+ -- can angle =      0.00, stage position =   0.9123
+ -- can angle =      0.00, stage position =   0.7105
+ -- can angle =      0.00, stage position =   0.5104
+ -- button  9 pressed: active break on/off toggle
+Active brake set off
+ -- button  9 pressed: active break on/off toggle
+Active brake set on
+ -- button 10 pressed: inactive break on/off toggle
+Both brakes may not be on -- action denied
+Inactive brake set off
+ -- button 11 pressed: right start
+ -- goto rightStartY at   1.6971 inches
+ -- can angle =      0.00, stage position =   0.7117
+ -- can angle =      0.00, stage position =   0.9164
+ -- can angle =      0.00, stage position =   1.1181
+ -- can angle =      0.00, stage position =   1.3197
+ -- can angle =      0.00, stage position =   1.5212
+ -- button 15 pressed: servo on/off toggle
+X side Jrk set to to servo
+ -- button 17 pressed: pause
+Position mode stops; pausing
+Transition to wind mode
+Wind mode begins...........................................
+TDC aborted as position is zero
+Winding a layer begins...............................
+ -- getting layer start position
+ -- jogging begins on layer 2
+ -- can turn =    1,  can steps =      80554
+ -- can turn =    2,  can steps =     160073
+ -- can turn =    3,  can steps =     240952
+ -- can turn =    4,  can steps =     320157
+ -- can turn =    5,  can steps =     400529
+ -- can turn =    6,  can steps =     480478
+ -- can turn =    5,  can steps =     479597
+ -- can turn =    6,  can steps =     480336
+ -- can turn =    7,  can steps =     560214
+ -- can turn =    8,  can steps =     640439
+ -- can turn =    9,  can steps =     720073
+ -- can turn =   10,  can steps =     800480
+ -- can turn =   11,  can steps =     880122
+ -- can turn =   12,  can steps =     960993
+ -- can turn =   13,  can steps =    1040870
+ -- can turn =   14,  can steps =    1120245
+ -- can turn =   15,  can steps =    1200602
+ -- can turn =   16,  can steps =    1280267
+ -- can turn =   17,  can steps =    1361055
+ -- can turn =   18,  can steps =    1440972
+ -- can turn =   19,  can steps =    1520600
+ -- can turn =   20,  can steps =    1602033
+ -- can turn =   21,  can steps =    1680928
+ -- can turn =   20,  can steps =    1679930
+ -- can turn =   21,  can steps =    1680227
+ -- can turn =   22,  can steps =    1760082
+ -- can turn =   23,  can steps =    1840216
+ -- can turn =   24,  can steps =    1920631
+ -- can turn =   25,  can steps =    2000726
+ -- can turn =   26,  can steps =    2081000
+ -- can turn =   27,  can steps =    2161077
+ -- can turn =   28,  can steps =    2240975
+ -- can turn =   27,  can steps =    2239886
+ -- can turn =   28,  can steps =    2240788
+ -- can turn =   29,  can steps =    2321355
+ -- can turn =   30,  can steps =    2400118
+ -- can turn =   31,  can steps =    2480346
+ -- can turn =   32,  can steps =    2560418
+ -- can turn =   33,  can steps =    2641689
+ -- can turn =   34,  can steps =    2721247
+ -- can turn =   35,  can steps =    2800870
+ -- can turn =   36,  can steps =    2881421
+ -- can turn =   37,  can steps =    2961038
+ -- can turn =   38,  can steps =    3040060
+ -- can turn =   39,  can steps =    3120213
+ -- can turn =   40,  can steps =    3200048
+ -- can turn =   41,  can steps =    3280053
+ -- button 17 pressed: pause
+Wind mode stops; pausing
+ -- can position after reset  is 0
+Transition to wind mode
+Wind mode begins...........................................
+TDC aborted as position is zero
+Winding a layer begins...............................
+ -- getting layer start position
+ -- jogging begins on layer 3
+ -- can turn =    1,  can steps =      80116
+ -- can turn =    2,  can steps =     160044
+ -- can turn =    3,  can steps =     240619
+ -- can turn =    2,  can steps =     239973
+ -- can turn =    3,  can steps =     240310
+ -- can turn =    4,  can steps =     320790
+ -- can turn =    5,  can steps =     400397
+ -- can turn =    6,  can steps =     480425
+ -- can turn =    7,  can steps =     560733
+ -- can turn =    8,  can steps =     640810
+ -- can turn =    7,  can steps =     639910
+ -- can turn =    6,  can steps =     559939
+ -- can turn =    5,  can steps =     479806
+ -- button  6 pressed: fast/slow toggle
+Joystick speed set to fast
+ -- can turn =    4,  can steps =     399521
+ -- can turn =    3,  can steps =     319559
+ -- can turn =    2,  can steps =     239832
+ -- can turn =    1,  can steps =     159435
+ -- can turn =    2,  can steps =     160741
+ -- can turn =    3,  can steps =     240460
+ -- can turn =    4,  can steps =     320482
+ -- can turn =    3,  can steps =     319598
+ -- can turn =    2,  can steps =     239980
+ -- can turn =    1,  can steps =     159598
+ -- can turn =    0,  can steps =      79582
+ -- can turn =    1,  can steps =      80051
+ -- can turn =    2,  can steps =     160310
+ -- can turn =    3,  can steps =     240381
+ -- can turn =    4,  can steps =     320837
+ -- can turn =    5,  can steps =     400269
+ -- can turn =    6,  can steps =     480529
+ -- button  6 pressed: fast/slow toggle
+Joystick speed set to slow
+ -- can turn =    7,  can steps =     560382
+ -- can turn =    8,  can steps =     640396
+ -- can turn =    9,  can steps =     720020
+ -- can turn =   10,  can steps =     800586
+ -- can turn =   11,  can steps =     881410
+ -- can turn =   12,  can steps =     960064
+ -- can turn =   13,  can steps =    1042221
+ -- can turn =   14,  can steps =    1120395
+ -- can turn =   15,  can steps =    1200993
+ -- can turn =   16,  can steps =    1280741
+ -- can turn =   17,  can steps =    1360524
+ -- can turn =   18,  can steps =    1440232
+ -- can turn =   17,  can steps =    1439867
+ -- can turn =   16,  can steps =    1359990
+ -- can turn =   15,  can steps =    1279857
+ -- can turn =   16,  can steps =    1280447
+ -- can turn =   17,  can steps =    1360797
+ -- can turn =   18,  can steps =    1440313
+ -- can turn =   19,  can steps =    1521315
+ -- can turn =   20,  can steps =    1601323
+ -- can turn =   21,  can steps =    1680466
+ -- can turn =   22,  can steps =    1761213
+ -- can turn =   21,  can steps =    1759823
+ -- can turn =   20,  can steps =    1679947
+ -- can turn =   21,  can steps =    1680357
+ -- can turn =   22,  can steps =    1760198
+ -- can turn =   23,  can steps =    1840036
+ -- can turn =   24,  can steps =    1922414
+ -- can turn =   25,  can steps =    2001066
+ -- can turn =   26,  can steps =    2081122
+ -- can turn =   27,  can steps =    2161176
+ -- can turn =   28,  can steps =    2240157
+ -- can turn =   29,  can steps =    2321645
+ -- can turn =   30,  can steps =    2400587
+ -- can turn =   31,  can steps =    2480821
+ -- can turn =   32,  can steps =    2560071
+ -- can turn =   33,  can steps =    2641405
+ -- can turn =   34,  can steps =    2721370
+ -- can turn =   35,  can steps =    2801278
+ -- can turn =   36,  can steps =    2880495
+ -- can turn =   37,  can steps =    2960170
+ -- can turn =   38,  can steps =    3040454
+ -- can turn =   39,  can steps =    3120810
+ -- can turn =   38,  can steps =    3119832
+ -- can turn =   37,  can steps =    3039973
+ -- can turn =   36,  can steps =    2959842
+ -- can turn =   35,  can steps =    2879958
+ -- can turn =   34,  can steps =    2799824
+ -- button  6 pressed: fast/slow toggle
+Joystick speed set to fast
+ -- can turn =   33,  can steps =    2719823
+ -- can turn =   32,  can steps =    2639601
+ -- can turn =   33,  can steps =    2640125
+ -- can turn =   34,  can steps =    2720365
+ -- can turn =   35,  can steps =    2800700
+ -- can turn =   36,  can steps =    2880613
+ -- can turn =   37,  can steps =    2961464
+ -- can turn =   38,  can steps =    3040015
+ -- can turn =   39,  can steps =    3120311
+ -- can turn =   40,  can steps =    3200149
+ -- can turn =   41,  can steps =    3280595
+ -- button 17 pressed: pause
+Wind mode stops; pausing
+ -- can position after reset  is 0
+Transition to position mode
+Position mode begins.......................................
+Left side active; Y is left; X Jrk in servo; Y Jrk in park
+ -- can angle =      0.00, stage position =   1.6971
+ -- button 13 pressed: park
+ -- goto parkY at   0.5051 inches
+ -- can angle =      0.00, stage position =   1.4902
+ -- can angle =      0.00, stage position =   1.2887
+ -- can angle =      0.00, stage position =   1.0871
+ -- can angle =      0.00, stage position =   0.8853
+ -- can angle =      0.00, stage position =   0.6838
+ -- button 15 pressed: servo on/off toggle
+X side Jrk set to to park
+ -- button 17 pressed: pause
+Position mode stops; pausing
+Transition to position mode
+Position mode begins.......................................
+Left side active; X is left; X Jrk in park; Y Jrk in park
+ -- can angle =      0.00, stage position =   0.2812
+ -- button  9 pressed: active break on/off toggle
+Active brake set off
+ -- button  9 pressed: active break on/off toggle
+Active brake set on
+ -- button 10 pressed: inactive break on/off toggle
+Both brakes may not be on -- action denied
+Inactive brake set off
+ -- button 11 pressed: right start
+ -- goto rightStartX at   1.4927 inches
+ -- can angle =      0.00, stage position =   0.4838
+ -- can angle =      0.00, stage position =   0.6855
+ -- can angle =      0.00, stage position =   0.8869
+ -- can angle =      0.00, stage position =   1.0886
+ -- can angle =      0.00, stage position =   1.2902
+ -- can angle =      0.00, stage position =   1.4911
+ -- button 15 pressed: servo on/off toggle
+Y side Jrk set to to servo
+ -- can angle =     20.56, stage position =   1.4927
+ -- can angle =     42.37, stage position =   1.4927
+ -- can angle =     66.20, stage position =   1.4927
+ -- can angle =     87.22, stage position =   1.4927
+ -- can angle =    110.60, stage position =   1.4927
+ -- can angle =    132.55, stage position =   1.4927
+ -- can angle =    154.82, stage position =   1.4927
+ -- can angle =    178.14, stage position =   1.4927
+ -- can angle =    198.19, stage position =   1.4927
+ -- can angle =    221.74, stage position =   1.4927
+ -- can angle =    242.09, stage position =   1.4927
+ -- can angle =    262.54, stage position =   1.4927
+ -- can angle =    285.05, stage position =   1.4927
+ -- can angle =    306.80, stage position =   1.4927
+ -- can angle =    330.36, stage position =   1.4927
+ -- can angle =    352.04, stage position =   1.4927
+ -- can angle =    373.80, stage position =   1.4927
+ -- can angle =    395.84, stage position =   1.4927
+ -- can angle =    416.66, stage position =   1.4927
+ -- can angle =    437.47, stage position =   1.4927
+ -- can angle =    459.51, stage position =   1.4927
+ -- can angle =    429.66, stage position =   1.4927
+ -- can angle =    406.69, stage position =   1.4927
+ -- can angle =    386.07, stage position =   1.4927
+ -- button  6 pressed: fast/slow toggle
+Joystick speed set to slow
+ -- can angle =    365.32, stage position =   1.4927
+ -- can angle =    344.49, stage position =   1.4927
+ -- can angle =    365.74, stage position =   1.4927
+ -- can angle =    386.00, stage position =   1.4927
+ -- can angle =    408.02, stage position =   1.4927
+ -- can angle =    428.22, stage position =   1.4927
+ -- can angle =    407.96, stage position =   1.4927
+ -- can angle =    430.14, stage position =   1.4927
+ -- can angle =    452.56, stage position =   1.4927
+ -- can angle =    472.69, stage position =   1.4927
+ -- can angle =    494.39, stage position =   1.4927
+ -- can angle =    517.57, stage position =   1.4927
+ -- can angle =    539.88, stage position =   1.4927
+ -- can angle =    562.17, stage position =   1.4927
+ -- can angle =    583.26, stage position =   1.4927
+ -- can angle =    604.41, stage position =   1.4927
+ -- can angle =    625.36, stage position =   1.4927
+ -- can angle =    647.51, stage position =   1.4927
+ -- can angle =    671.04, stage position =   1.4927
+ -- can angle =    693.55, stage position =   1.4927
+ -- can angle =    715.45, stage position =   1.4927
+ -- can angle =    694.19, stage position =   1.4927
+ -- can angle =    716.35, stage position =   1.4927
+ -- can angle =    739.84, stage position =   1.4927
+ -- can angle =    762.75, stage position =   1.4927
+ -- can angle =    785.77, stage position =   1.4927
+ -- can angle =    806.90, stage position =   1.4927
+ -- can angle =    829.86, stage position =   1.4927
+ -- can angle =    854.33, stage position =   1.4927
+ -- can angle =    874.59, stage position =   1.4927
+ -- can angle =    895.46, stage position =   1.4927
+ -- can angle =    917.07, stage position =   1.4927
+ -- can angle =    939.35, stage position =   1.4927
+ -- can angle =    959.70, stage position =   1.4927
+ -- can angle =    982.66, stage position =   1.4927
+ -- can angle =   1006.27, stage position =   1.4927
+ -- can angle =   1031.48, stage position =   1.4927
+ -- can angle =   1058.34, stage position =   1.4927
+ -- can angle =   1085.92, stage position =   1.4927
+ -- can angle =   1113.91, stage position =   1.4927
+ -- can angle =   1142.19, stage position =   1.4927
+ -- can angle =   1171.42, stage position =   1.4927
+ -- can angle =   1201.40, stage position =   1.4927
+ -- can angle =   1228.21, stage position =   1.4927
+ -- can angle =   1248.38, stage position =   1.4927
+ -- can angle =   1268.93, stage position =   1.4927
+ -- can angle =   1289.90, stage position =   1.4927
+ -- can angle =   1311.10, stage position =   1.4927
+ -- can angle =   1332.61, stage position =   1.4927
+ -- can angle =   1354.33, stage position =   1.4927
+ -- can angle =   1376.20, stage position =   1.4927
+ -- can angle =   1401.65, stage position =   1.4927
+ -- can angle =   1421.82, stage position =   1.4927
+ -- can angle =   1444.13, stage position =   1.4927
+ -- can angle =   1468.69, stage position =   1.4927
+ -- can angle =   1492.20, stage position =   1.4927
+ -- can angle =   1518.13, stage position =   1.4927
+ -- can angle =   1545.57, stage position =   1.4927
+ -- can angle =   1574.78, stage position =   1.4927
+ -- can angle =   1594.94, stage position =   1.4927
+ -- can angle =   1615.64, stage position =   1.4927
+ -- can angle =   1636.71, stage position =   1.4927
+ -- can angle =   1658.49, stage position =   1.4927
+ -- can angle =   1680.34, stage position =   1.4927
+ -- can angle =   1702.51, stage position =   1.4927
+ -- can angle =   1725.27, stage position =   1.4927
+ -- can angle =   1748.79, stage position =   1.4927
+ -- can angle =   1772.70, stage position =   1.4927
+ -- can angle =   1796.73, stage position =   1.4927
+ -- can angle =   1820.91, stage position =   1.4927
+ -- can angle =   1845.29, stage position =   1.4927
+ -- can angle =   1869.72, stage position =   1.4927
+ -- can angle =   1894.14, stage position =   1.4927
+ -- can angle =   1914.54, stage position =   1.4927
+ -- can angle =   1939.05, stage position =   1.4927
+ -- can angle =   1963.82, stage position =   1.4927
+ -- can angle =   1989.27, stage position =   1.4927
+ -- can angle =   2015.41, stage position =   1.4927
+ -- can angle =   2042.26, stage position =   1.4927
+ -- can angle =   2070.23, stage position =   1.4927
+ -- can angle =   2093.94, stage position =   1.4927
+ -- can angle =   2122.40, stage position =   1.4927
+ -- can angle =   2150.93, stage position =   1.4927
+ -- can angle =   2174.75, stage position =   1.4927
+ -- can angle =   2208.10, stage position =   1.4927
+ -- can angle =   2236.85, stage position =   1.4927
+ -- can angle =   2265.95, stage position =   1.4927
+ -- can angle =   2295.45, stage position =   1.4927
+ -- can angle =   2325.46, stage position =   1.4927
+ -- can angle =   2355.65, stage position =   1.4927
+ -- can angle =   2386.12, stage position =   1.4927
+ -- can angle =   2417.24, stage position =   1.4927
+ -- can angle =   2448.90, stage position =   1.4927
+ -- can angle =   2475.36, stage position =   1.4927
+ -- can angle =   2501.50, stage position =   1.4927
+ -- can angle =   2521.67, stage position =   1.4927
+ -- can angle =   2499.73, stage position =   1.4927
+ -- can angle =   2477.09, stage position =   1.4927
+ -- can angle =   2456.46, stage position =   1.4927
+ -- can angle =   2433.80, stage position =   1.4927
+ -- can angle =   2411.33, stage position =   1.4927
+ -- can angle =   2431.71, stage position =   1.4927
+ -- can angle =   2452.90, stage position =   1.4927
+ -- can angle =   2472.91, stage position =   1.4927
+ -- can angle =   2493.22, stage position =   1.4927
+ -- can angle =   2471.92, stage position =   1.4927
+ -- can angle =   2451.18, stage position =   1.4927
+ -- can angle =   2430.43, stage position =   1.4927
+ -- can angle =   2409.69, stage position =   1.4927
+ -- can angle =   2388.95, stage position =   1.4927
+ -- can angle =   2368.21, stage position =   1.4927
+ -- can angle =   2347.47, stage position =   1.4927
+ -- can angle =   2326.73, stage position =   1.4927
+ -- can angle =   2306.02, stage position =   1.4927
+ -- can angle =   2285.28, stage position =   1.4927
+ -- can angle =   2264.54, stage position =   1.4927
+ -- can angle =   2243.80, stage position =   1.4927
+ -- can angle =   2223.05, stage position =   1.4927
+ -- can angle =   2202.30, stage position =   1.4927
+ -- can angle =   2181.56, stage position =   1.4927
+ -- can angle =   2160.84, stage position =   1.4927
+ -- can angle =   2140.08, stage position =   1.4927
+ -- can angle =   2119.38, stage position =   1.4927
+ -- can angle =   2098.63, stage position =   1.4927
+ -- can angle =   2077.90, stage position =   1.4927
+ -- can angle =   2057.16, stage position =   1.4927
+ -- can angle =   2036.42, stage position =   1.4927
+ -- can angle =   2015.68, stage position =   1.4927
+ -- can angle =   1994.93, stage position =   1.4927
+ -- can angle =   1974.19, stage position =   1.4927
+ -- can angle =   1953.45, stage position =   1.4927
+ -- can angle =   1932.71, stage position =   1.4927
+ -- can angle =   1912.00, stage position =   1.4927
+ -- can angle =   1891.26, stage position =   1.4927
+ -- can angle =   1870.52, stage position =   1.4927
+ -- can angle =   1849.77, stage position =   1.4927
+ -- can angle =   1829.04, stage position =   1.4927
+ -- can angle =   1808.29, stage position =   1.4927
+ -- can angle =   1787.55, stage position =   1.4927
+ -- can angle =   1766.80, stage position =   1.4927
+ -- can angle =   1746.06, stage position =   1.4927
+ -- can angle =   1725.37, stage position =   1.4927
+ -- can angle =   1704.61, stage position =   1.4927
+ -- can angle =   1683.88, stage position =   1.4927
+ -- can angle =   1663.12, stage position =   1.4927
+ -- can angle =   1642.40, stage position =   1.4927
+ -- can angle =   1621.65, stage position =   1.4927
+ -- can angle =   1600.91, stage position =   1.4927
+ -- can angle =   1580.17, stage position =   1.4927
+ -- can angle =   1559.43, stage position =   1.4927
+ -- can angle =   1538.72, stage position =   1.4927
+ -- can angle =   1517.98, stage position =   1.4927
+ -- can angle =   1497.25, stage position =   1.4927
+ -- can angle =   1476.50, stage position =   1.4927
+ -- can angle =   1455.75, stage position =   1.4927
+ -- can angle =   1435.01, stage position =   1.4927
+ -- can angle =   1414.26, stage position =   1.4927
+ -- can angle =   1393.53, stage position =   1.4927
+ -- can angle =   1372.79, stage position =   1.4927
+ -- can angle =   1352.07, stage position =   1.4927
+ -- can angle =   1331.34, stage position =   1.4927
+ -- can angle =   1310.59, stage position =   1.4927
+ -- can angle =   1289.85, stage position =   1.4927
+ -- can angle =   1269.13, stage position =   1.4927
+ -- can angle =   1248.38, stage position =   1.4927
+ -- can angle =   1227.63, stage position =   1.4927
+ -- can angle =   1206.90, stage position =   1.4927
+ -- can angle =   1186.15, stage position =   1.4927
+ -- can angle =   1165.41, stage position =   1.4927
+ -- can angle =   1144.71, stage position =   1.4927
+ -- can angle =   1123.96, stage position =   1.4927
+ -- can angle =   1103.21, stage position =   1.4927
+ -- can angle =   1082.48, stage position =   1.4927
+ -- can angle =   1060.42, stage position =   1.4927
+ -- can angle =   1081.11, stage position =   1.4927
+ -- can angle =   1102.61, stage position =   1.4927
+ -- can angle =   1124.17, stage position =   1.4927
+ -- can angle =   1145.81, stage position =   1.4927
+ -- can angle =   1166.17, stage position =   1.4927
+ -- can angle =   1187.68, stage position =   1.4927
+ -- can angle =   1208.23, stage position =   1.4927
+ -- can angle =   1228.71, stage position =   1.4927
+ -- can angle =   1251.53, stage position =   1.4927
+ -- can angle =   1273.86, stage position =   1.4927
+ -- can angle =   1296.31, stage position =   1.4927
+ -- can angle =   1317.42, stage position =   1.4927
+ -- can angle =   1339.87, stage position =   1.4927
+ -- can angle =   1363.64, stage position =   1.4927
+ -- can angle =   1384.77, stage position =   1.4927
+ -- can angle =   1405.90, stage position =   1.4927
+ -- can angle =   1427.02, stage position =   1.4927
+ -- can angle =   1448.98, stage position =   1.4927
+ -- can angle =   1470.66, stage position =   1.4927
+ -- can angle =   1491.11, stage position =   1.4927
+ -- can angle =   1511.21, stage position =   1.4927
+ -- can angle =   1531.27, stage position =   1.4927
+ -- can angle =   1551.69, stage position =   1.4927
+ -- can angle =   1573.50, stage position =   1.4927
+ -- can angle =   1596.16, stage position =   1.4927
+ -- can angle =   1620.74, stage position =   1.4927
+ -- can angle =   1642.15, stage position =   1.4927
+ -- can angle =   1665.45, stage position =   1.4927
+ -- can angle =   1690.16, stage position =   1.4927
+ -- can angle =   1716.29, stage position =   1.4927
+ -- can angle =   1736.34, stage position =   1.4927
+ -- can angle =   1757.25, stage position =   1.4927
+ -- can angle =   1778.92, stage position =   1.4927
+ -- can angle =   1800.77, stage position =   1.4927
+ -- can angle =   1827.35, stage position =   1.4927
+ -- can angle =   1851.59, stage position =   1.4927
+ -- can angle =   1875.65, stage position =   1.4927
+ -- can angle =   1899.42, stage position =   1.4927
+ -- can angle =   1923.17, stage position =   1.4927
+ -- can angle =   1946.96, stage position =   1.4927
+ -- can angle =   1968.34, stage position =   1.4927
+ -- can angle =   1992.11, stage position =   1.4927
+ -- can angle =   2013.50, stage position =   1.4927
+ -- can angle =   2034.88, stage position =   1.4927
+ -- can angle =   2056.28, stage position =   1.4927
+ -- can angle =   2080.05, stage position =   1.4927
+ -- can angle =   2103.81, stage position =   1.4927
+ -- can angle =   2127.59, stage position =   1.4927
+ -- can angle =   2148.86, stage position =   1.4927
+ -- can angle =   2171.82, stage position =   1.4927
+ -- can angle =   2193.97, stage position =   1.4927
+ -- can angle =   2216.06, stage position =   1.4927
+ -- button  6 pressed: fast/slow toggle
+Joystick speed set to fast
+ -- can angle =   2188.85, stage position =   1.4927
+ -- can angle =   2166.59, stage position =   1.4927
+ -- can angle =   2144.33, stage position =   1.4927
+ -- can angle =   2117.15, stage position =   1.4927
+ -- can angle =   2094.91, stage position =   1.4927
+ -- can angle =   2070.16, stage position =   1.4927
+ -- can angle =   2045.40, stage position =   1.4927
+ -- can angle =   2025.33, stage position =   1.4927
+ -- can angle =   2002.64, stage position =   1.4927
+ -- can angle =   1979.43, stage position =   1.4927
+ -- can angle =   1956.24, stage position =   1.4927
+ -- can angle =   1929.83, stage position =   1.4927
+ -- can angle =   1902.78, stage position =   1.4927
+ -- can angle =   1878.36, stage position =   1.4927
+ -- can angle =   1857.05, stage position =   1.4927
+ -- can angle =   1832.59, stage position =   1.4927
+ -- can angle =   1808.01, stage position =   1.4927
+ -- can angle =   1780.23, stage position =   1.4927
+ -- can angle =   1758.58, stage position =   1.4927
+ -- can angle =   1733.80, stage position =   1.4927
+ -- can angle =   1709.03, stage position =   1.4927
+ -- can angle =   1681.12, stage position =   1.4927
+ -- can angle =   1659.46, stage position =   1.4927
+ -- can angle =   1637.80, stage position =   1.4927
+ -- can angle =   1609.90, stage position =   1.4927
+ -- can angle =   1585.13, stage position =   1.4927
+ -- can angle =   1563.44, stage position =   1.4927
+ -- can angle =   1541.79, stage position =   1.4927
+ -- can angle =   1517.02, stage position =   1.4927
+ -- can angle =   1495.33, stage position =   1.4927
+ -- can angle =   1473.66, stage position =   1.4927
+ -- can angle =   1451.99, stage position =   1.4927
+ -- can angle =   1427.20, stage position =   1.4927
+ -- can angle =   1405.51, stage position =   1.4927
+ -- can angle =   1383.84, stage position =   1.4927
+ -- can angle =   1362.17, stage position =   1.4927
+ -- can angle =   1337.50, stage position =   1.4927
+ -- can angle =   1312.71, stage position =   1.4927
+ -- can angle =   1291.05, stage position =   1.4927
+ -- can angle =   1266.35, stage position =   1.4927
+ -- can angle =   1241.65, stage position =   1.4927
+ -- can angle =   1216.93, stage position =   1.4927
+ -- can angle =   1189.15, stage position =   1.4927
+ -- can angle =   1167.51, stage position =   1.4927
+ -- can angle =   1145.89, stage position =   1.4927
+ -- can angle =   1124.26, stage position =   1.4927
+ -- can angle =   1099.57, stage position =   1.4927
+ -- can angle =   1078.74, stage position =   1.4927
+ -- can angle =   1053.72, stage position =   1.4927
+ -- can angle =   1031.82, stage position =   1.4927
+ -- can angle =   1009.94, stage position =   1.4927
+ -- can angle =    988.05, stage position =   1.4927
+ -- can angle =    966.22, stage position =   1.4927
+ -- can angle =    946.14, stage position =   1.4927
+ -- can angle =    926.07, stage position =   1.4927
+ -- can angle =    904.17, stage position =   1.4927
+ -- can angle =    884.11, stage position =   1.4927
+ -- can angle =    864.03, stage position =   1.4927
+ -- can angle =    843.96, stage position =   1.4927
+ -- can angle =    822.07, stage position =   1.4927
+ -- can angle =    800.17, stage position =   1.4927
+ -- can angle =    778.27, stage position =   1.4927
+ -- can angle =    758.20, stage position =   1.4927
+ -- can angle =    735.20, stage position =   1.4927
+ -- can angle =    713.57, stage position =   1.4927
+ -- can angle =    692.26, stage position =   1.4927
+ -- can angle =    670.79, stage position =   1.4927
+ -- can angle =    649.20, stage position =   1.4927
+ -- can angle =    628.27, stage position =   1.4927
+ -- can angle =    607.46, stage position =   1.4927
+ -- can angle =    585.41, stage position =   1.4927
+ -- can angle =    563.38, stage position =   1.4927
+ -- can angle =    541.35, stage position =   1.4927
+ -- can angle =    519.30, stage position =   1.4927
+ -- can angle =    497.30, stage position =   1.4927
+ -- can angle =    474.04, stage position =   1.4927
+ -- can angle =    451.94, stage position =   1.4927
+ -- can angle =    429.89, stage position =   1.4927
+ -- can angle =    409.18, stage position =   1.4927
+ -- can angle =    388.41, stage position =   1.4927
+ -- can angle =    368.26, stage position =   1.4927
+ -- can angle =    389.70, stage position =   1.4927
+ -- can angle =    410.55, stage position =   1.4927
+ -- can angle =    431.16, stage position =   1.4927
+ -- can angle =    453.38, stage position =   1.4927
+ -- can angle =    476.16, stage position =   1.4927
+ -- can angle =    498.69, stage position =   1.4927
+ -- can angle =    520.97, stage position =   1.4927
+ -- can angle =    543.85, stage position =   1.4927
+ -- can angle =    566.71, stage position =   1.4927
+ -- can angle =    588.06, stage position =   1.4927
+ -- can angle =    612.45, stage position =   1.4927
+ -- can angle =    636.83, stage position =   1.4927
+ -- can angle =    658.17, stage position =   1.4927
+ -- can angle =    679.51, stage position =   1.4927
+ -- can angle =    700.99, stage position =   1.4927
+ -- can angle =    722.98, stage position =   1.4927
+ -- can angle =    743.67, stage position =   1.4927
+ -- can angle =    765.99, stage position =   1.4927
+ -- can angle =    787.35, stage position =   1.4927
+ -- can angle =    808.34, stage position =   1.4927
+ -- can angle =    829.14, stage position =   1.4927
+ -- can angle =    850.08, stage position =   1.4927
+ -- can angle =    873.52, stage position =   1.4927
+ -- can angle =    895.79, stage position =   1.4927
+ -- can angle =    916.71, stage position =   1.4927
+ -- can angle =    939.34, stage position =   1.4927
+ -- can angle =    962.12, stage position =   1.4927
+ -- can angle =    984.96, stage position =   1.4927
+ -- can angle =   1005.40, stage position =   1.4927
+ -- can angle =   1029.91, stage position =   1.4927
+ -- can angle =   1008.03, stage position =   1.4927
+ -- can angle =   1028.29, stage position =   1.4927
+ -- can angle =   1048.68, stage position =   1.4927
+ -- can angle =   1069.54, stage position =   1.4927
+ -- can angle =   1090.08, stage position =   1.4927
+ -- can angle =   1110.25, stage position =   1.4927
+ -- can angle =   1131.19, stage position =   1.4927
+ -- can angle =   1152.78, stage position =   1.4927
+ -- can angle =   1174.35, stage position =   1.4927
+ -- can angle =   1194.82, stage position =   1.4927
+ -- can angle =   1218.10, stage position =   1.4927
+ -- can angle =   1241.35, stage position =   1.4927
+ -- can angle =   1261.48, stage position =   1.4927
+ -- can angle =   1283.90, stage position =   1.4927
+ -- can angle =   1306.39, stage position =   1.4927
+ -- can angle =   1328.86, stage position =   1.4927
+ -- can angle =   1351.32, stage position =   1.4927
+ -- can angle =   1373.84, stage position =   1.4927
+ -- can angle =   1395.78, stage position =   1.4927
+ -- can angle =   1418.81, stage position =   1.4927
+ -- can angle =   1439.27, stage position =   1.4927
+ -- can angle =   1419.20, stage position =   1.4927
+ -- can angle =   1397.47, stage position =   1.4927
+ -- can angle =   1375.62, stage position =   1.4927
+ -- can angle =   1397.93, stage position =   1.4927
+ -- can angle =   1419.71, stage position =   1.4927
+ -- can angle =   1440.89, stage position =   1.4927
+ -- can angle =   1461.80, stage position =   1.4927
+ -- can angle =   1482.53, stage position =   1.4927
+ -- can angle =   1504.71, stage position =   1.4927
+ -- can angle =   1525.77, stage position =   1.4927
+ -- can angle =   1548.04, stage position =   1.4927
+ -- can angle =   1568.94, stage position =   1.4927
+ -- can angle =   1593.43, stage position =   1.4927
+ -- can angle =   1616.43, stage position =   1.4927
+ -- can angle =   1641.10, stage position =   1.4927
+ -- can angle =   1661.39, stage position =   1.4927
+ -- can angle =   1685.92, stage position =   1.4927
+ -- can angle =   1707.09, stage position =   1.4927
+ -- can angle =   1732.02, stage position =   1.4927
+ -- can angle =   1754.01, stage position =   1.4927
+ -- can angle =   1778.06, stage position =   1.4927
+ -- can angle =   1800.38, stage position =   1.4927
+ -- can angle =   1821.63, stage position =   1.4927
+ -- can angle =   1844.55, stage position =   1.4927
+ -- can angle =   1867.10, stage position =   1.4927
+ -- can angle =   1893.04, stage position =   1.4927
+ -- can angle =   1913.58, stage position =   1.4927
+ -- can angle =   1935.54, stage position =   1.4927
+ -- can angle =   1959.35, stage position =   1.4927
+ -- can angle =   1983.84, stage position =   1.4927
+ -- can angle =   2008.62, stage position =   1.4927
+ -- can angle =   2030.88, stage position =   1.4927
+ -- can angle =   2055.96, stage position =   1.4927
+ -- can angle =   2082.05, stage position =   1.4927
+ -- can angle =   2109.37, stage position =   1.4927
+ -- can angle =   2134.30, stage position =   1.4927
+ -- can angle =   2162.68, stage position =   1.4927
+ -- can angle =   2182.81, stage position =   1.4927
+ -- can angle =   2204.19, stage position =   1.4927
+ -- can angle =   2226.39, stage position =   1.4927
+ -- can angle =   2256.34, stage position =   1.4927
+ -- can angle =   2278.74, stage position =   1.4927
+ -- can angle =   2301.46, stage position =   1.4927
+ -- can angle =   2324.32, stage position =   1.4927
+ -- can angle =   2347.68, stage position =   1.4927
+ -- can angle =   2371.76, stage position =   1.4927
+ -- can angle =   2396.41, stage position =   1.4927
+ -- can angle =   2421.50, stage position =   1.4927
+ -- can angle =   2446.93, stage position =   1.4927
+ -- can angle =   2472.80, stage position =   1.4927
+ -- can angle =   2494.79, stage position =   1.4927
+ -- can angle =   2520.96, stage position =   1.4927
+ -- can angle =   2547.29, stage position =   1.4927
+ -- can angle =   2573.51, stage position =   1.4927
+ -- can angle =   2599.82, stage position =   1.4927
+ -- can angle =   2626.10, stage position =   1.4927
+ -- can angle =   2648.03, stage position =   1.4927
+ -- can angle =   2674.34, stage position =   1.4927
+ -- can angle =   2696.22, stage position =   1.4927
+ -- can angle =   2726.99, stage position =   1.4927
+ -- can angle =   2753.44, stage position =   1.4927
+ -- can angle =   2775.60, stage position =   1.4927
+ -- can angle =   2802.17, stage position =   1.4927
+ -- can angle =   2828.74, stage position =   1.4927
+ -- can angle =   2855.34, stage position =   1.4927
+ -- can angle =   2881.87, stage position =   1.4927
+ -- can angle =   2908.47, stage position =   1.4927
+ -- can angle =   2935.06, stage position =   1.4927
+ -- can angle =   2961.63, stage position =   1.4927
+ -- can angle =   2988.06, stage position =   1.4927
+ -- can angle =   3014.65, stage position =   1.4927
+ -- can angle =   3041.19, stage position =   1.4927
+ -- can angle =   3063.33, stage position =   1.4927
+ -- can angle =   3094.36, stage position =   1.4927
+ -- can angle =   3125.35, stage position =   1.4927
+ -- can angle =   3151.92, stage position =   1.4927
+ -- can angle =   3174.08, stage position =   1.4927
+ -- can angle =   3196.20, stage position =   1.4927
+ -- can angle =   3222.48, stage position =   1.4927
+ -- can angle =   3190.49, stage position =   1.4927
+ -- can angle =   3169.80, stage position =   1.4927
+ -- button  6 pressed: fast/slow toggle
+Joystick speed set to slow
+ -- can angle =   3189.96, stage position =   1.4927
+ -- can angle =   3211.65, stage position =   1.4927
+ -- can angle =   3235.08, stage position =   1.4927
+ -- can angle =   3258.91, stage position =   1.4927
+ -- can angle =   3279.26, stage position =   1.4927
+ -- can angle =   3301.36, stage position =   1.4927
+ -- can angle =   3321.75, stage position =   1.4927
+ -- can angle =   3343.83, stage position =   1.4927
+ -- can angle =   3364.51, stage position =   1.4927
+ -- can angle =   3386.98, stage position =   1.4927
+ -- can angle =   3409.95, stage position =   1.4927
+ -- can angle =   3433.22, stage position =   1.4927
+ -- can angle =   3455.90, stage position =   1.4927
+ -- can angle =   3478.10, stage position =   1.4927
+ -- can angle =   3499.90, stage position =   1.4927
+ -- can angle =   3523.56, stage position =   1.4927
+ -- can angle =   3546.42, stage position =   1.4927
+ -- can angle =   3567.67, stage position =   1.4927
+ -- can angle =   3593.12, stage position =   1.4927
+ -- can angle =   3613.25, stage position =   1.4927
+ -- can angle =   3634.41, stage position =   1.4927
+ -- can angle =   3657.16, stage position =   1.4927
+ -- can angle =   3681.14, stage position =   1.4927
+ -- can angle =   3706.16, stage position =   1.4927
+ -- can angle =   3732.60, stage position =   1.4927
+ -- can angle =   3760.37, stage position =   1.4927
+ -- can angle =   3788.87, stage position =   1.4927
+ -- can angle =   3818.51, stage position =   1.4927
+ -- can angle =   3838.59, stage position =   1.4927
+ -- can angle =   3858.91, stage position =   1.4927
+ -- can angle =   3879.58, stage position =   1.4927
+ -- can angle =   3900.74, stage position =   1.4927
+ -- can angle =   3923.15, stage position =   1.4927
+ -- can angle =   3945.92, stage position =   1.4927
+ -- can angle =   3968.78, stage position =   1.4927
+ -- can angle =   3999.19, stage position =   1.4927
+ -- can angle =   4022.10, stage position =   1.4927
+ -- can angle =   4048.92, stage position =   1.4927
+ -- can angle =   4071.88, stage position =   1.4927
+ -- can angle =   4094.85, stage position =   1.4927
+ -- can angle =   4117.03, stage position =   1.4927
+ -- can angle =   4094.87, stage position =   1.4927
+ -- can angle =   4073.12, stage position =   1.4927
+ -- can angle =   4049.94, stage position =   1.4927
+ -- can angle =   4071.38, stage position =   1.4927
+ -- can angle =   4093.42, stage position =   1.4927
+ -- can angle =   4116.38, stage position =   1.4927
+ -- can angle =   4141.22, stage position =   1.4927
+ -- can angle =   4167.80, stage position =   1.4927
+ -- can angle =   4189.76, stage position =   1.4927
+ -- can angle =   4213.62, stage position =   1.4927
+ -- can angle =   4239.75, stage position =   1.4927
+ -- can angle =   4267.66, stage position =   1.4927
+ -- can angle =   4297.23, stage position =   1.4927
+ -- can angle =   4317.69, stage position =   1.4927
+ -- can angle =   4339.29, stage position =   1.4927
+ -- can angle =   4362.11, stage position =   1.4927
+ -- can angle =   4385.63, stage position =   1.4927
+ -- can angle =   4409.72, stage position =   1.4927
+ -- can angle =   4434.21, stage position =   1.4927
+ -- can angle =   4459.31, stage position =   1.4927
+ -- can angle =   4484.68, stage position =   1.4927
+ -- can angle =   4510.38, stage position =   1.4927
+ -- can angle =   4536.80, stage position =   1.4927
+ -- can angle =   4563.38, stage position =   1.4927
+ -- can angle =   4590.14, stage position =   1.4927
+ -- can angle =   4617.29, stage position =   1.4927
+ -- can angle =   4644.89, stage position =   1.4927
+ -- can angle =   4673.08, stage position =   1.4927
+ -- can angle =   4701.77, stage position =   1.4927
+ -- can angle =   4731.32, stage position =   1.4927
+ -- can angle =   4761.30, stage position =   1.4927
+ -- can angle =   4791.22, stage position =   1.4927
+ -- can angle =   4821.32, stage position =   1.4927
+ -- can angle =   4851.72, stage position =   1.4927
+ -- can angle =   4882.62, stage position =   1.4927
+ -- can angle =   4914.17, stage position =   1.4927
+ -- can angle =   4946.18, stage position =   1.4927
+ -- can angle =   4978.91, stage position =   1.4927
+ -- can angle =   5012.54, stage position =   1.4927
+ -- can angle =   5038.29, stage position =   1.4927
+ -- can angle =   5061.33, stage position =   1.4927
+ -- can angle =   5084.37, stage position =   1.4927
+ -- can angle =   5107.45, stage position =   1.4927
+ -- can angle =   5130.48, stage position =   1.4927
+ -- can angle =   5153.56, stage position =   1.4927
+ -- can angle =   5176.56, stage position =   1.4927
+ -- can angle =   5199.60, stage position =   1.4927
+ -- can angle =   5222.61, stage position =   1.4927
+ -- can angle =   5245.68, stage position =   1.4927
+ -- can angle =   5268.76, stage position =   1.4927
+ -- can angle =   5291.91, stage position =   1.4927
+ -- can angle =   5314.80, stage position =   1.4927
+ -- can angle =   5337.84, stage position =   1.4927
+ -- can angle =   5360.81, stage position =   1.4927
+ -- can angle =   5383.81, stage position =   1.4927
+ -- can angle =   5406.85, stage position =   1.4927
+ -- can angle =   5429.93, stage position =   1.4927
+ -- can angle =   5452.97, stage position =   1.4927
+ -- can angle =   5476.00, stage position =   1.4927
+ -- can angle =   5499.04, stage position =   1.4927
+ -- can angle =   5522.08, stage position =   1.4927
+ -- can angle =   5545.16, stage position =   1.4927
+ -- can angle =   5568.12, stage position =   1.4927
+ -- can angle =   5591.20, stage position =   1.4927
+ -- can angle =   5614.27, stage position =   1.4927
+ -- can angle =   5637.31, stage position =   1.4927
+ -- can angle =   5660.35, stage position =   1.4927
+ -- can angle =   5683.43, stage position =   1.4927
+ -- can angle =   5706.47, stage position =   1.4927
+ -- can angle =   5729.51, stage position =   1.4927
+ -- can angle =   5752.58, stage position =   1.4927
+ -- can angle =   5775.59, stage position =   1.4927
+ -- can angle =   5798.62, stage position =   1.4927
+ -- can angle =   5821.66, stage position =   1.4927
+ -- can angle =   5844.74, stage position =   1.4927
+ -- can angle =   5867.78, stage position =   1.4927
+ -- can angle =   5890.82, stage position =   1.4927
+ -- can angle =   5913.90, stage position =   1.4927
+ -- can angle =   5936.93, stage position =   1.4927
+ -- can angle =   5959.97, stage position =   1.4927
+ -- can angle =   5983.01, stage position =   1.4927
+ -- can angle =   6006.02, stage position =   1.4927
+ -- can angle =   6029.06, stage position =   1.4927
+ -- can angle =   6052.13, stage position =   1.4927
+ -- can angle =   6075.24, stage position =   1.4927
+ -- can angle =   6098.25, stage position =   1.4927
+ -- can angle =   6121.29, stage position =   1.4927
+ -- can angle =   6144.32, stage position =   1.4927
+ -- can angle =   6167.40, stage position =   1.4927
+ -- can angle =   6190.44, stage position =   1.4927
+ -- can angle =   6213.48, stage position =   1.4927
+ -- can angle =   6236.55, stage position =   1.4927
+ -- can angle =   6259.41, stage position =   1.4927
+ -- can angle =   6282.45, stage position =   1.4927
+ -- can angle =   6305.49, stage position =   1.4927
+ -- can angle =   6328.53, stage position =   1.4927
+ -- can angle =   6351.57, stage position =   1.4927
+ -- can angle =   6374.57, stage position =   1.4927
+ -- can angle =   6397.65, stage position =   1.4927
+ -- can angle =   6420.72, stage position =   1.4927
+ -- can angle =   6443.76, stage position =   1.4927
+ -- can angle =   6466.84, stage position =   1.4927
+ -- can angle =   6489.88, stage position =   1.4927
+ -- can angle =   6512.99, stage position =   1.4927
+ -- can angle =   6535.96, stage position =   1.4927
+ -- can angle =   6559.00, stage position =   1.4927
+ -- can angle =   6582.04, stage position =   1.4927
+ -- can angle =   6605.11, stage position =   1.4927
+ -- can angle =   6628.11, stage position =   1.4927
+ -- can angle =   6651.19, stage position =   1.4927
+ -- can angle =   6674.23, stage position =   1.4927
+ -- can angle =   6697.27, stage position =   1.4927
+ -- can angle =   6720.31, stage position =   1.4927
+ -- can angle =   6743.39, stage position =   1.4927
+ -- can angle =   6766.42, stage position =   1.4927
+ -- can angle =   6789.46, stage position =   1.4927
+ -- can angle =   6812.50, stage position =   1.4927
+ -- can angle =   6835.54, stage position =   1.4927
+ -- can angle =   6858.62, stage position =   1.4927
+ -- can angle =   6881.62, stage position =   1.4927
+ -- can angle =   6904.70, stage position =   1.4927
+ -- can angle =   6927.77, stage position =   1.4927
+ -- can angle =   6950.88, stage position =   1.4927
+ -- can angle =   6973.85, stage position =   1.4927
+ -- can angle =   6996.89, stage position =   1.4927
+ -- can angle =   7019.96, stage position =   1.4927
+ -- can angle =   7042.97, stage position =   1.4927
+ -- can angle =   7066.00, stage position =   1.4927
+ -- can angle =   7089.08, stage position =   1.4927
+ -- can angle =   7112.08, stage position =   1.4927
+ -- can angle =   7135.12, stage position =   1.4927
+ -- can angle =   7158.16, stage position =   1.4927
+ -- can angle =   7181.24, stage position =   1.4927
+ -- can angle =   7204.28, stage position =   1.4927
+ -- can angle =   7227.36, stage position =   1.4927
+ -- can angle =   7250.39, stage position =   1.4927
+ -- can angle =   7273.47, stage position =   1.4927
+ -- can angle =   7296.29, stage position =   1.4927
+ -- can angle =   7319.33, stage position =   1.4927
+ -- can angle =   7342.41, stage position =   1.4927
+ -- can angle =   7365.45, stage position =   1.4927
+ -- can angle =   7398.60, stage position =   1.4927
+ -- can angle =   7425.46, stage position =   1.4927
+ -- button  6 pressed: fast/slow toggle
+Joystick speed set to fast
+ -- can angle =   7403.73, stage position =   1.4927
+ -- can angle =   7380.25, stage position =   1.4927
+ -- can angle =   7354.29, stage position =   1.4927
+ -- can angle =   7332.48, stage position =   1.4927
+ -- can angle =   7308.88, stage position =   1.4927
+ -- can angle =   7283.89, stage position =   1.4927
+ -- can angle =   7258.19, stage position =   1.4927
+ -- can angle =   7228.21, stage position =   1.4927
+ -- can angle =   7206.95, stage position =   1.4927
+ -- can angle =   7178.05, stage position =   1.4927
+ -- can angle =   7156.26, stage position =   1.4927
+ -- can angle =   7130.71, stage position =   1.4927
+ -- can angle =   7105.13, stage position =   1.4927
+ -- can angle =   7079.51, stage position =   1.4927
+ -- can angle =   7057.48, stage position =   1.4927
+ -- can angle =   7034.99, stage position =   1.4927
+ -- can angle =   7011.86, stage position =   1.4927
+ -- can angle =   6988.49, stage position =   1.4927
+ -- can angle =   6964.91, stage position =   1.4927
+ -- can angle =   6940.49, stage position =   1.4927
+ -- can angle =   6915.20, stage position =   1.4927
+ -- can angle =   6893.46, stage position =   1.4927
+ -- can angle =   6867.06, stage position =   1.4927
+ -- can angle =   6840.71, stage position =   1.4927
+ -- can angle =   6809.96, stage position =   1.4927
+ -- can angle =   6787.98, stage position =   1.4927
+ -- can angle =   6766.04, stage position =   1.4927
+ -- can angle =   6739.66, stage position =   1.4927
+ -- can angle =   6717.83, stage position =   1.4927
+ -- can angle =   6691.15, stage position =   1.4927
+ -- can angle =   6668.59, stage position =   1.4927
+ -- can angle =   6641.09, stage position =   1.4927
+ -- can angle =   6618.17, stage position =   1.4927
+ -- can angle =   6595.22, stage position =   1.4927
+ -- can angle =   6567.71, stage position =   1.4927
+ -- can angle =   6540.21, stage position =   1.4927
+ -- can angle =   6517.26, stage position =   1.4927
+ -- can angle =   6494.36, stage position =   1.4927
+ -- can angle =   6466.80, stage position =   1.4927
+ -- can angle =   6439.14, stage position =   1.4927
+ -- can angle =   6416.04, stage position =   1.4927
+ -- can angle =   6388.32, stage position =   1.4927
+ -- can angle =   6365.21, stage position =   1.4927
+ -- can angle =   6332.79, stage position =   1.4927
+ -- can angle =   6309.62, stage position =   1.4927
+ -- can angle =   6281.34, stage position =   1.4927
+ -- can angle =   6252.38, stage position =   1.4927
+ -- can angle =   6223.09, stage position =   1.4927
+ -- can angle =   6198.52, stage position =   1.4927
+ -- can angle =   6169.20, stage position =   1.4927
+ -- can angle =   6144.66, stage position =   1.4927
+ -- can angle =   6120.15, stage position =   1.4927
+ -- can angle =   6095.57, stage position =   1.4927
+ -- can angle =   6066.09, stage position =   1.4927
+ -- can angle =   6036.56, stage position =   1.4927
+ -- can angle =   6011.94, stage position =   1.4927
+ -- can angle =   5982.29, stage position =   1.4927
+ -- can angle =   5951.70, stage position =   1.4927
+ -- can angle =   5925.69, stage position =   1.4927
+ -- can angle =   5904.81, stage position =   1.4927
+ -- can angle =   5873.69, stage position =   1.4927
+ -- can angle =   5842.33, stage position =   1.4927
+ -- can angle =   5816.13, stage position =   1.4927
+ -- can angle =   5784.72, stage position =   1.4927
+ -- can angle =   5752.71, stage position =   1.4927
+ -- can angle =   5720.39, stage position =   1.4927
+ -- can angle =   5693.31, stage position =   1.4927
+ -- can angle =   5666.13, stage position =   1.4927
+ -- can angle =   5633.18, stage position =   1.4927
+ -- can angle =   5605.61, stage position =   1.4927
+ -- can angle =   5572.45, stage position =   1.4927
+ -- can angle =   5544.72, stage position =   1.4927
+ -- can angle =   5517.00, stage position =   1.4927
+ -- can angle =   5494.79, stage position =   1.4927
+ -- can angle =   5467.08, stage position =   1.4927
+ -- can angle =   5439.36, stage position =   1.4927
+ -- can angle =   5417.18, stage position =   1.4927
+ -- can angle =   5395.01, stage position =   1.4927
+ -- can angle =   5372.80, stage position =   1.4927
+ -- can angle =   5350.62, stage position =   1.4927
+ -- can angle =   5328.48, stage position =   1.4927
+ -- can angle =   5306.23, stage position =   1.4927
+ -- can angle =   5284.06, stage position =   1.4927
+ -- can angle =   5261.92, stage position =   1.4927
+ -- can angle =   5239.78, stage position =   1.4927
+ -- can angle =   5217.57, stage position =   1.4927
+ -- can angle =   5195.32, stage position =   1.4927
+ -- can angle =   5173.18, stage position =   1.4927
+ -- can angle =   5151.01, stage position =   1.4927
+ -- can angle =   5123.22, stage position =   1.4927
+ -- can angle =   5089.92, stage position =   1.4927
+ -- can angle =   5067.70, stage position =   1.4927
+ -- can angle =   5045.44, stage position =   1.4927
+ -- can angle =   5023.22, stage position =   1.4927
+ -- can angle =   4995.47, stage position =   1.4927
+ -- can angle =   4967.83, stage position =   1.4927
+ -- can angle =   4940.03, stage position =   1.4927
+ -- can angle =   4906.76, stage position =   1.4927
+ -- can angle =   4873.37, stage position =   1.4927
+ -- can angle =   4839.87, stage position =   1.4927
+ -- can angle =   4805.94, stage position =   1.4927
+ -- can angle =   4770.39, stage position =   1.4927
+ -- can angle =   4740.58, stage position =   1.4927
+ -- can angle =   4716.78, stage position =   1.4927
+ -- can angle =   4693.01, stage position =   1.4927
+ -- can angle =   4669.16, stage position =   1.4927
+ -- can angle =   4639.47, stage position =   1.4927
+ -- can angle =   4609.70, stage position =   1.4927
+ -- can angle =   4585.86, stage position =   1.4927
+ -- can angle =   4562.09, stage position =   1.4927
+ -- can angle =   4538.28, stage position =   1.4927
+ -- can angle =   4514.40, stage position =   1.4927
+ -- can angle =   4490.63, stage position =   1.4927
+ -- can angle =   4460.88, stage position =   1.4927
+ -- can angle =   4431.11, stage position =   1.4927
+ -- can angle =   4407.30, stage position =   1.4927
+ -- can angle =   4383.50, stage position =   1.4927
+ -- can angle =   4359.69, stage position =   1.4927
+ -- can angle =   4335.88, stage position =   1.4927
+ -- can angle =   4312.04, stage position =   1.4927
+ -- can angle =   4282.32, stage position =   1.4927
+ -- can angle =   4252.52, stage position =   1.4927
+ -- can angle =   4228.74, stage position =   1.4927
+ -- can angle =   4204.94, stage position =   1.4927
+ -- can angle =   4181.13, stage position =   1.4927
+ -- can angle =   4157.29, stage position =   1.4927
+ -- can angle =   4133.52, stage position =   1.4927
+ -- can angle =   4109.71, stage position =   1.4927
+ -- can angle =   4085.90, stage position =   1.4927
+ -- can angle =   4062.02, stage position =   1.4927
+ -- can angle =   4038.21, stage position =   1.4927
+ -- can angle =   4014.41, stage position =   1.4927
+ -- can angle =   3990.56, stage position =   1.4927
+ -- can angle =   3961.03, stage position =   1.4927
+ -- can angle =   3931.27, stage position =   1.4927
+ -- can angle =   3895.56, stage position =   1.4927
+ -- can angle =   3865.72, stage position =   1.4927
+ -- can angle =   3841.95, stage position =   1.4927
+ -- can angle =   3818.11, stage position =   1.4927
+ -- can angle =   3794.30, stage position =   1.4927
+ -- can angle =   3770.53, stage position =   1.4927
+ -- can angle =   3746.72, stage position =   1.4927
+ -- can angle =   3722.91, stage position =   1.4927
+ -- can angle =   3699.03, stage position =   1.4927
+ -- can angle =   3675.23, stage position =   1.4927
+ -- can angle =   3651.42, stage position =   1.4927
+ -- can angle =   3627.58, stage position =   1.4927
+ -- can angle =   3603.80, stage position =   1.4927
+ -- can angle =   3580.00, stage position =   1.4927
+ -- can angle =   3556.19, stage position =   1.4927
+ -- can angle =   3532.34, stage position =   1.4927
+ -- can angle =   3508.50, stage position =   1.4927
+ -- can angle =   3484.73, stage position =   1.4927
+ -- can angle =   3460.92, stage position =   1.4927
+ -- can angle =   3437.08, stage position =   1.4927
+ -- can angle =   3407.32, stage position =   1.4927
+ -- can angle =   3377.56, stage position =   1.4927
+ -- can angle =   3347.80, stage position =   1.4927
+ -- can angle =   3317.97, stage position =   1.4927
+ -- can angle =   3294.23, stage position =   1.4927
+ -- can angle =   3258.49, stage position =   1.4927
+ -- can angle =   3234.60, stage position =   1.4927
+ -- can angle =   3204.81, stage position =   1.4927
+ -- can angle =   3181.00, stage position =   1.4927
+ -- can angle =   3156.99, stage position =   1.4927
+ -- can angle =   3133.25, stage position =   1.4927
+ -- can angle =   3103.43, stage position =   1.4927
+ -- can angle =   3079.57, stage position =   1.4927
+ -- can angle =   3043.72, stage position =   1.4927
+ -- can angle =   3007.56, stage position =   1.4927
+ -- can angle =   2977.49, stage position =   1.4927
+ -- can angle =   2953.31, stage position =   1.4927
+ -- can angle =   2923.07, stage position =   1.4927
+ -- can angle =   2898.83, stage position =   1.4927
+ -- can angle =   2874.68, stage position =   1.4927
+ -- can angle =   2850.49, stage position =   1.4927
+ -- can angle =   2814.17, stage position =   1.4927
+ -- can angle =   2789.94, stage position =   1.4927
+ -- can angle =   2765.71, stage position =   1.4927
+ -- can angle =   2735.50, stage position =   1.4927
+ -- can angle =   2705.24, stage position =   1.4927
+ -- can angle =   2681.00, stage position =   1.4927
+ -- can angle =   2656.68, stage position =   1.4927
+ -- can angle =   2632.41, stage position =   1.4927
+ -- can angle =   2608.20, stage position =   1.4927
+ -- can angle =   2577.91, stage position =   1.4927
+ -- can angle =   2541.55, stage position =   1.4927
+ -- can angle =   2511.21, stage position =   1.4927
+ -- can angle =   2474.85, stage position =   1.4927
+ -- can angle =   2438.45, stage position =   1.4927
+ -- can angle =   2414.21, stage position =   1.4927
+ -- can angle =   2389.97, stage position =   1.4927
+ -- can angle =   2365.74, stage position =   1.4927
+ -- can angle =   2335.44, stage position =   1.4927
+ -- can angle =   2305.14, stage position =   1.4927
+ -- can angle =   2280.86, stage position =   1.4927
+ -- can angle =   2250.56, stage position =   1.4927
+ -- can angle =   2220.22, stage position =   1.4927
+ -- can angle =   2189.96, stage position =   1.4927
+ -- can angle =   2159.63, stage position =   1.4927
+ -- can angle =   2135.43, stage position =   1.4927
+ -- can angle =   2111.15, stage position =   1.4927
+ -- can angle =   2086.91, stage position =   1.4927
+ -- can angle =   2062.67, stage position =   1.4927
+ -- can angle =   2026.31, stage position =   1.4927
+ -- can angle =   1995.93, stage position =   1.4927
+ -- can angle =   1965.90, stage position =   1.4927
+ -- can angle =   1941.58, stage position =   1.4927
+ -- can angle =   1911.33, stage position =   1.4927
+ -- can angle =   1880.99, stage position =   1.4927
+ -- can angle =   1856.79, stage position =   1.4927
+ -- can angle =   1820.39, stage position =   1.4927
+ -- can angle =   1784.03, stage position =   1.4927
+ -- can angle =   1759.75, stage position =   1.4927
+ -- can angle =   1735.51, stage position =   1.4927
+ -- can angle =   1711.20, stage position =   1.4927
+ -- can angle =   1687.03, stage position =   1.4927
+ -- can angle =   1662.75, stage position =   1.4927
+ -- can angle =   1638.52, stage position =   1.4927
+ -- can angle =   1614.28, stage position =   1.4927
+ -- can angle =   1590.00, stage position =   1.4927
+ -- can angle =   1565.76, stage position =   1.4927
+ -- can angle =   1535.49, stage position =   1.4927
+ -- can angle =   1511.30, stage position =   1.4927
+ -- can angle =   1487.11, stage position =   1.4927
+ -- can angle =   1462.92, stage position =   1.4927
+ -- can angle =   1432.64, stage position =   1.4927
+ -- can angle =   1396.40, stage position =   1.4927
+ -- can angle =   1372.13, stage position =   1.4927
+ -- can angle =   1341.89, stage position =   1.4927
+ -- can angle =   1311.70, stage position =   1.4927
+ -- can angle =   1281.86, stage position =   1.4927
+ -- can angle =   1260.74, stage position =   1.4927
+ -- can angle =   1234.61, stage position =   1.4927
+ -- can angle =   1204.18, stage position =   1.4927
+ -- can angle =   1179.18, stage position =   1.4927
+ -- can angle =   1154.06, stage position =   1.4927
+ -- can angle =   1128.96, stage position =   1.4927
+ -- can angle =   1108.18, stage position =   1.4927
+ -- can angle =   1083.49, stage position =   1.4927
+ -- can angle =   1062.79, stage position =   1.4927
+ -- can angle =   1042.13, stage position =   1.4927
+ -- can angle =   1017.33, stage position =   1.4927
+ -- can angle =    996.70, stage position =   1.4927
+ -- can angle =    971.98, stage position =   1.4927
+ -- can angle =    947.48, stage position =   1.4927
+ -- can angle =    923.54, stage position =   1.4927
+ -- can angle =    899.73, stage position =   1.4927
+ -- can angle =    875.94, stage position =   1.4927
+ -- can angle =    853.14, stage position =   1.4927
+ -- can angle =    823.84, stage position =   1.4927
+ -- can angle =    798.37, stage position =   1.4927
+ -- can angle =    769.31, stage position =   1.4927
+ -- can angle =    745.60, stage position =   1.4927
+ -- can angle =    725.49, stage position =   1.4927
+ -- can angle =    702.05, stage position =   1.4927
+ -- can angle =    681.97, stage position =   1.4927
+ -- can angle =    661.90, stage position =   1.4927
+ -- can angle =    638.50, stage position =   1.4927
+ -- can angle =    618.48, stage position =   1.4927
+ -- can angle =    598.47, stage position =   1.4927
+ -- can angle =    568.64, stage position =   1.4927
+ -- can angle =    539.18, stage position =   1.4927
+ -- can angle =    513.14, stage position =   1.4927
+ -- can angle =    484.25, stage position =   1.4927
+ -- can angle =    456.17, stage position =   1.4927
+ -- can angle =    428.95, stage position =   1.4927
+ -- can angle =    408.03, stage position =   1.4927
+ -- can angle =    387.16, stage position =   1.4927
+ -- can angle =    366.33, stage position =   1.4927
+ -- can angle =    342.52, stage position =   1.4927
+ -- can angle =    321.67, stage position =   1.4927
+ -- can angle =    296.95, stage position =   1.4927
+ -- can angle =    276.09, stage position =   1.4927
+ -- can angle =    250.96, stage position =   1.4927
+ -- can angle =    228.60, stage position =   1.4927
+ -- can angle =    206.36, stage position =   1.4927
+ -- can angle =    186.10, stage position =   1.4927
+ -- can angle =    164.21, stage position =   1.4927
+ -- can angle =    144.06, stage position =   1.4927
+ -- can angle =    123.33, stage position =   1.4927
+ -- can angle =    101.28, stage position =   1.4927
+ -- can angle =     79.13, stage position =   1.4927
+ -- can angle =     56.95, stage position =   1.4927
+ -- can angle =     36.01, stage position =   1.4927
+ -- can angle =     15.12, stage position =   1.4927
+ -- can angle =     -5.81, stage position =   1.4927
+ -- button 17 pressed: pause
+Position mode stops; pausing
+Transition to wind mode
+Wind mode begins...........................................
+ -- can position after reset  is 0
+Winding a layer begins...............................
+ -- getting layer start position
+ -- jogging begins on layer 4
+ -- can turn =    1,  can steps =      80066
+ -- can turn =    2,  can steps =     160929
+ -- can turn =    3,  can steps =     241320
+ -- can turn =    4,  can steps =     320498
+ -- can turn =    5,  can steps =     400141
+ -- can turn =    6,  can steps =     481092
+ -- can turn =    7,  can steps =     562006
+ -- can turn =    8,  can steps =     640773
+ -- can turn =    9,  can steps =     720677
+ -- can turn =   10,  can steps =     801715
+ -- can turn =   11,  can steps =     882679
+ -- can turn =   12,  can steps =     960278
+ -- can turn =   13,  can steps =    1042332
+ -- can turn =   14,  can steps =    1122246
+ -- can turn =   15,  can steps =    1201363
+ -- can turn =   16,  can steps =    1283339
+ -- can turn =   17,  can steps =    1360345
+ -- can turn =   18,  can steps =    1440857
+ -- can turn =   19,  can steps =    1521386
+ -- can turn =   20,  can steps =    1601879
+ -- can turn =   21,  can steps =    1681657
+ -- can turn =   22,  can steps =    1760863
+ -- can turn =   23,  can steps =    1840994
+ -- can turn =   24,  can steps =    1920890
+ -- can turn =   25,  can steps =    2001475
+ -- can turn =   26,  can steps =    2081406
+ -- can turn =   27,  can steps =    2160882
+ -- can turn =   28,  can steps =    2241269
+ -- can turn =   29,  can steps =    2321349
+ -- can turn =   30,  can steps =    2400771
+ -- can turn =   31,  can steps =    2480173
+ -- can turn =   32,  can steps =    2560441
+ -- can turn =   33,  can steps =    2641310
+ -- can turn =   34,  can steps =    2720557
+ -- can turn =   35,  can steps =    2801099
+ -- can turn =   36,  can steps =    2880474
+ -- can turn =   37,  can steps =    2961701
+ -- can turn =   36,  can steps =    2959630
+ -- can turn =   37,  can steps =    2960258
+ -- can turn =   38,  can steps =    3040858
+ -- can turn =   39,  can steps =    3121591
+ -- can turn =   40,  can steps =    3200193
+ -- button 17 pressed: pause
+Wind mode stops; pausing
+ -- can position after reset  is 0
+Transition to wind mode
+Wind mode begins...........................................
+TDC aborted as position is zero
+Winding a layer begins...............................
+ -- getting layer start position
+ -- jogging begins on layer 5
+ -- can turn =    1,  can steps =      80474
+ -- can turn =    2,  can steps =     161716
+ -- can turn =    3,  can steps =     240956
+ -- can turn =    4,  can steps =     320482
+ -- can turn =    5,  can steps =     401029
+ -- can turn =    6,  can steps =     480270
+ -- can turn =    7,  can steps =     560623
+ -- can turn =    8,  can steps =     642189
+ -- can turn =    9,  can steps =     721234
+ -- can turn =   10,  can steps =     800312
+ -- can turn =   11,  can steps =     881305
+ -- can turn =   12,  can steps =     960231
+ -- can turn =   13,  can steps =    1042741
+ -- can turn =   14,  can steps =    1120287
+ -- can turn =   15,  can steps =    1202727
+ -- can turn =   16,  can steps =    1281118
+ -- can turn =   17,  can steps =    1361260
+ -- can turn =   18,  can steps =    1443152
+ -- can turn =   19,  can steps =    1522505
+ -- can turn =   20,  can steps =    1600759
+ -- can turn =   21,  can steps =    1680950
+ -- can turn =   22,  can steps =    1762912
+ -- can turn =   23,  can steps =    1841384
+ -- can turn =   24,  can steps =    1920017
+ -- can turn =   25,  can steps =    2000448
+ -- can turn =   26,  can steps =    2080813
+ -- can turn =   27,  can steps =    2161255
+ -- can turn =   28,  can steps =    2241653
+ -- can turn =   29,  can steps =    2320298
+ -- can turn =   30,  can steps =    2402259
+ -- can turn =   31,  can steps =    2480261
+ -- can turn =   32,  can steps =    2561176
+ -- can turn =   33,  can steps =    2642683
+ -- can turn =   34,  can steps =    2720287
+ -- can turn =   35,  can steps =    2802780
+ -- can turn =   36,  can steps =    2880456
+ -- can turn =   37,  can steps =    2961277
+ -- can turn =   38,  can steps =    3041496
+ -- can turn =   39,  can steps =    3120078
+ -- can turn =   38,  can steps =    3119565
+ -- can turn =   39,  can steps =    3120046
+ -- can turn =   38,  can steps =    3119808
+ -- can turn =   39,  can steps =    3120226
+ -- can turn =   38,  can steps =    3119925
+ -- button 17 pressed: pause
+Wind mode stops; pausing
+ -- can position after reset  is 0
+Transition to position mode
+Position mode begins.......................................
+Left side active; X is left; X Jrk in park; Y Jrk in servo
+ -- can angle =      0.00, stage position =   1.4988
+ -- button 15 pressed: servo on/off toggle
+Y side Jrk set to to park
+ -- button 13 pressed: park
+ -- goto parkX at   0.2812 inches
+ -- can angle =      0.00, stage position =   1.2985
+ -- can angle =      0.00, stage position =   1.0968
+ -- can angle =      0.00, stage position =   0.8952
+ -- can angle =      0.00, stage position =   0.6937
+ -- can angle =      0.00, stage position =   0.4921
+ -- can angle =      0.00, stage position =   0.2919
+ -- button 17 pressed: pause
+Position mode stops; pausing
+Transition to position mode
+Position mode begins.......................................
+Left side active; Y is left; X Jrk in park; Y Jrk in park
+ -- can angle =      0.00, stage position =   0.5051
+ -- button  9 pressed: active break on/off toggle
+Active brake set off
+ -- button  9 pressed: active break on/off toggle
+Active brake set on
+ -- button 10 pressed: inactive break on/off toggle
+Both brakes may not be on -- action denied
+Inactive brake set off
+ -- button 11 pressed: right start
+ -- goto rightStartY at   1.6971 inches
+ -- can angle =      0.00, stage position =   0.7126
+ -- can angle =      0.00, stage position =   0.9143
+ -- can angle =      0.00, stage position =   1.1159
+ -- can angle =      0.00, stage position =   1.3176
+ -- can angle =      0.00, stage position =   1.5190
+ -- button 15 pressed: servo on/off toggle
+X side Jrk set to to servo
+ -- button 17 pressed: pause
+Position mode stops; pausing
+Transition to wind mode
+Wind mode begins...........................................
+TDC aborted as position is zero
+Winding a layer begins...............................
+ -- getting layer start position
+ -- jogging begins on layer 6
+ -- can turn =    1,  can steps =      80515
+ -- can turn =    2,  can steps =     160514
+ -- can turn =    3,  can steps =     240266
+ -- can turn =    4,  can steps =     320825
+ -- can turn =    5,  can steps =     400032
+ -- can turn =    6,  can steps =     481049
+ -- can turn =    7,  can steps =     560879
+ -- can turn =    8,  can steps =     640863
+ -- can turn =    7,  can steps =     639299
+ -- can turn =    8,  can steps =     640363
+ -- can turn =    9,  can steps =     721717
+ -- can turn =   10,  can steps =     800116
+ -- can turn =    9,  can steps =     798810
+ -- can turn =    8,  can steps =     718289
+ -- can turn =    7,  can steps =     639130
+ -- can turn =    6,  can steps =     559047
+ -- can turn =    7,  can steps =     560071
+ -- can turn =    8,  can steps =     640484
+ -- can turn =    9,  can steps =     720880
+ -- can turn =   10,  can steps =     800587
+ -- can turn =   11,  can steps =     880938
+ -- can turn =   12,  can steps =     960325
+ -- can turn =   13,  can steps =    1040129
+ -- can turn =   12,  can steps =    1039091
+ -- can turn =   11,  can steps =     957838
+ -- can turn =   10,  can steps =     879385
+ -- can turn =    9,  can steps =     799200
+ -- can turn =    8,  can steps =     719621
+ -- can turn =    7,  can steps =     639760
+ -- can turn =    6,  can steps =     559001
+ -- can turn =    5,  can steps =     479644
+ -- can turn =    4,  can steps =     399389
+ -- can turn =    5,  can steps =     400526
+ -- can turn =    6,  can steps =     480588
+ -- can turn =    7,  can steps =     560085
+ -- can turn =    8,  can steps =     640567
+ -- can turn =    9,  can steps =     721893
+ -- can turn =   10,  can steps =     800358
+ -- can turn =   11,  can steps =     882253
+ -- can turn =   12,  can steps =     962101
+ -- can turn =   13,  can steps =    1041866
+ -- can turn =   14,  can steps =    1120455
+ -- can turn =   15,  can steps =    1200750
+ -- can turn =   16,  can steps =    1281265
+ -- can turn =   17,  can steps =    1360952
+ -- can turn =   18,  can steps =    1441772
+ -- can turn =   19,  can steps =    1520782
+ -- can turn =   20,  can steps =    1600583
+ -- can turn =   21,  can steps =    1680919
+ -- can turn =   22,  can steps =    1761192
+ -- can turn =   23,  can steps =  
